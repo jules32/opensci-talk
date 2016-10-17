@@ -1,0 +1,246 @@
+---
+title: "Improving reproducibility, collaboration, and communication in marine science using open science tools"
+output:
+  ioslides_presentation:
+    # incremental: true
+    widescreen: true
+   # smaller: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 
+
+![](figures/JSL_filename_screenshot.png)
+
+<!---I'm not even going to ask if this looks familiar because I already know--->
+
+## Punchline
+
+we can be working more efficiently, collaboratively, and reproducibly than we are
+
+<!---This talk is about reproducibility. 
+The punchline is that we as environmental scientists, ecologists can be working more efficiently, collaboratively, and reproducibliy than we are. 
+There are existing tools and existing resources to learn them that will greatly improve your science and make you more equipped for future projects and jobs. These tools have changed our approach to science as much as email did. 
+
+We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing! --->
+
+## Outline
+
+- Improved reproducibility, collaboration and communication with the Ocean Health Index with open science tools
+    <!---We were not able to fully reproduce our own work when we tried.  --->
+- My origins in programming, data science, and open science
+- Resources and recommendations
+    <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
+
+## Definitions
+
+**Open science**   
+
+"the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" - *Hampton et al. 2014*
+
+<!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account 
+
+Continuum. 
+engaging in open science can benefit the individual researcher not only for her own 'future self' but also in the concrete terms of increased citations, media attention, potential collaborators, job opportunities, and funding opportunities--->
+
+**Data science** 
+
+**Tools**
+
+<!---But with open science tools, in some ways the benefits of openness are a byproduct of introducing time-saving efficiencies to improve scientific workflows; these tools reduce the headaches that accompany many data-rich workflows, and as a bonus, the resulting science is more transparent, reproducible, and accessible.--->
+
+
+
+## Ocean Health Index
+
+<!---Without getting into too many details of the project, --->
+
+- collaborative project synthesizing existing data into scores for benefits that oceans provide to people
+- scores can be used for policy decisions
+- Currently 26 assessments, including 5 Global assessments
+<!---26 government and academic groups involved, including the Baltic Sea, Canada, China, and Colombia--->
+
+
+## OHI Global assessments
+
+- 5 years of calculated scores
+
+[image: Nature paper 2012] 
+
+
+## We thought we were doing reproducible science
+
+... but we struggled to reproduce our work using standard approaches to reproducibility and collaboration 
+
+- meticulously documenting our methods (130 pages of published supplemental information)
+- highly collaborative
+
+<!---The effort to develop the first global OHI assessment was highly collaborative, which created additional challenges beyond data preparation. --->
+
+Ultimately, upon beginning the second annual assessment, we had the added challenge of managing multiple years of information and scores and we needed a nimble approach to sharing data, methods, and results within and outside our team. We quickly realized we needed to improve our workflow.
+
+In sharing our experiences and practices as we evolved into open science, we highlight two key lessons we learned – making progress requires exposure and confidence, and that the transition can be an evolution rather than a revolution
+
+## We identified three main challenges to overcome
+
+1) **reproducibility**, including transparency and repeatability, particularly in data preparation
+2) **collaboration**, including teamwork and internal collaboration
+3) **communication** with scientific and public communities
+
+
+## Demos of Main tools
+
+- R and RStudio for coding and visualization
+- Git for version control, [GitHub](https://github.com) for collaboration 
+- GitHub + RStudio for organization, documentation, online publishing, distribution, and communication [ohi-science.org](http://ohi-science.org/)
+
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=576&h=336)
+
+## We've since been improving using open science tools
+
+<!---will talk a bit about the cultural changes in reproduciblity and collaboration--->
+
+**reproducibility**
+
+- data preparation: coding and documenting
+- modeling: `R` functions and packages
+- version control
+- organization
+
+**collaboration**
+
+- teamwork
+- (simplified) GitHub workflow
+
+**communication**
+
+- sharing data and code
+- sharing methods and instruction
+
+
+
+
+- collaboration among team members 
+<!---large, distributed team structure, division of labor--->
+
+<!---will go through each and tell before and after--->
+
+
+## Reproducibility - data preparation 
+
+<!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
+
+- transforming, rescaling, gap-filling, formatting, etc
+- seldom mentioned but underpins the scientific process, taking up to 50-80% of a data scientist's time *(Lohr, New York Times 2014)*
+
+**Before**
+
+- manually (without coding)
+- largely Microsoft Excel
+- internal documents and emails
+
+**After**
+
+
+## Reproducibility - modeling
+
+**Before**
+
+
+**After**
+
+## Reproducibility - version control
+
+**Before**
+
+
+**After**
+
+## Reproducibility - organization
+
+**Before**
+
+
+**After**
+
+## Collaboratation
+
+**Before**
+
+Within the team, scientists were responsible for developing the models conceptually, gathering data, and interpreting modeled results, and a single programmer was responsible for coding the models. We communicated and shared files frequently, with email conversations often sent between subsets of the core team. We shared multiple versions of files (e.g. data_v3.xls, scores_final_updated2.csv) through long and often-forwarded email chains (Re: Fwd: data question), with all team members organizing those files on their local computers with their own conventions. 
+
+
+Redesigning our team's workflow required a substantial time investment to learn the tools, and a paradigm shift in our approach to collaboration. Previous to this investment, most team members with any coding experience had learned just enough to accomplish specific tasks (not necessarily in R), and had developed unique conventions. Given the complexity of the project, we needed to learn to code collaboratively and incorporate best practices into our coding25 so that methods for data preparation and modeling could be co-developed and vetted by multiple team members. Further, using a version control system allowed individuals to feel less inhibited about their coding contributions, since files could always be reverted back to previous versions if there were problems.
+
+<!---email chains or memory. This lack of transparency and repeatability was even more problematic for new team members--->
+
+
+## My origins in programming and data science
+
+- as a grad student I learned due to panic
+- just needed to get the job done
+- PCfB
+- resistant to version control
+
+<!---Best practices and good enough practices --->
+
+## My recommendations
+
+**1 - Learn to code; script your work** 
+
+&nbsp;&nbsp;&nbsp; - in R  
+&nbsp;&nbsp;&nbsp; - with RStudio
+
+<!---IDE makes it less intimdating, and so many features for new and seasoned programmers alike--->
+
+**2 - Use version control**
+
+&nbsp;&nbsp;&nbsp; - git  
+&nbsp;&nbsp;&nbsp; - with GitHub  
+&nbsp;&nbsp;&nbsp; - through RStudio 
+
+## Becoming a data scientist
+
+![](figures/PracticalDev.png)
+
+
+
+
+## Test
+
+<div class="row">
+  <div class="col-sm-4">
+  - Bullet 1
+  - Bullet 2
+  - Bullet 3
+  </div>
+  
+<div class="col-sm-4">
+  - Bullet 1
+  - Bullet 2
+  - Bullet 3
+  </div>
+</div>
+
+
+<div class="col-lg-5 col-lg-offset-2">
+  ![](image.png)
+
+  - Bullet 1
+  - Bullet 2
+  - Bullet 3
+</div>
+
+<div class="col-lg-5">
+  ![](image.png)
+
+  - Bullet 1
+  - Bullet 2
+  - Bullet 3
+</div>
+
+
