@@ -1,13 +1,14 @@
 ---
 title: "Exposure and confidence"
-subtitle: "Improving reproducibility, collaboration, and communication in environmental science using open science tools"
-author: Julia Stewart Lowndes  //  lowndes @nceas.ucsb.edu  //  @juliesquid
-date: October 21, 2016
+author: "Julia Stewart Lowndes  //  lowndes @nceas.ucsb.edu  //  @juliesquid"
+date: "October 21, 2016"
 output:
   ioslides_presentation:
-    # incremental: true
-    widescreen: true
-   # smaller: true
+    smaller: yes
+    widescreen: yes
+  slidy_presentation: default
+subtitle: Improving reproducibility, collaboration, and communication in environmental
+  science using open science tools
 ---
 
 ```{r setup, include=FALSE}
@@ -16,48 +17,73 @@ knitr::opts_chunk$set(echo = FALSE)
 <!---
 (while on title slide)
 - Really great to be back at HMS, have been looking forward to this talk
-- In the last few years I've begun to identify myself not only as a marine scientist, but as a programmer, or data scientist. I'll tell you what that means, and how the origins began here at HMS. 
+- In the last few years I've begun to identify myself not only as a marine scientist and amateur programmer, but as a data scientist and advocate of open science. 
 
-From my own experience, as well as teaching other scientists how to program through my job, the main barriers for scientists becoming competent programmers are exposure and confidence. 
+I never thought that I would become a data scientist/programmer. But from my own experience, as well as through teaching other scientists how to program, the main barriers for scientists becoming competent programmers are exposure and confidence. I'm hoping this talk will empower everyone; give you exposure and build confidence
 
-Chance to talk about a paper I'm about to submit as well 
-
-I'm hoping this talk will empower everyone; give you exposure and build confidence
 --->
 
-## Outline
+## Exposure and confidence
 
-- My origins in programming, data science, and open science
+> - **My origins in programming, data science, and open science**
+
 <!---I think this will resonate with you.  --->
-- Improving reproducibility, collaboration and communication in environmental science with open science tools
-<!---
 
+> - **Improving reproducibility, collaboration and communication in environmental science with open science tools**
+
+<!---
+- Chance to talk about a paper I'm about to submit as well 
 - I'm going to talk about about the tools we use that have fundamentally changed the way we approach science--as much as email did. That's a bold statement because email changed so many things (speed of communication, how many people could be involved in correspondence, attaching data, documentation, images) but it has. 
 - These tools have enabled us to get closer to Reproducibility. And one we embarked on because we were not able to fully reproduce our own work when we tried, largely .  
 --->
-- Resources and recommendations
+
+> - **Resources and recommendations**
+
 <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
 
+## Data science and open science 
 
-## Data science and open science
+**Data Science**:  
 
-Open science: "the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" - *Hampton et al. 2014*
+"an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
+([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
 
---> TODO: quote from Woo et al
+![](figures/r4ds_data-science.png) <img height="40px" />
+
+**Open science**:  
+
+"the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" ([*Hampton et al. 2014*](http://onlinelibrary.wiley.com/doi/10.1890/ES14-00402.1/full))
+
+
 <!--- 
+With open science tools, in some ways the benefits of openness are a byproduct of introducing time-saving efficiencies to improve scientific workflows
+these tools reduce the headaches that accompany many data-rich workflows, and as a bonus, the resulting science is more transparent, reproducible, and accessible.-
+-->
 
-Continuum. 
-engaging in open science can benefit the individual researcher not only for her own 'future self' but also in the concrete terms of increased citations, media attention, potential collaborators, job opportunities, and funding opportunities--->
 
-**Tools**
+## Data science and open science tools
 
-- R/RStudio
-- git/GitHub
+I'll be focusing on these tools: 
 
+- [**R**](https://cran.r-project.org/)
+- [**RStudio**](https://www.rstudio.com/)
+- [**git**](https://git-scm.com/)
+- [**GitHub**](https://www.github.com/)
 
 TODO: images 
 
-<!---But with open science tools, in some ways the benefits of openness are a byproduct of introducing time-saving efficiencies to improve scientific workflows; these tools reduce the headaches that accompany many data-rich workflows, and as a bonus, the resulting science is more transparent, reproducible, and accessible.--->
+This talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)
+
+<!---
+
+really powerful tools for analysis, collaboration and communication. Will be showing/demoing a bit later, but so you know: 
+
+- this presentation was created with RMarkdown by RStudio
+- versioned with git
+- shared pubicly with collaborators and you by GitHub. This is the URL if you want to use this as a reference; all these are live links
+
+
+--->
 
 
 <!---
@@ -69,9 +95,30 @@ There are existing tools and existing resources to learn them that will greatly 
 We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
 --->
 
-## My origin story - data science
+## My origins story
+
+![](figures/_JulieReleaseAugerIMG_9311_reduced.png)
+
+## Science v. data science {.columns-2}
+
+**Science questions:**
+
+- what are their habitat preferences?
+- what season are they most abundant?
+- how do they interact with other species? 
+<br>
+<br>
+<br>
+
+**Data science questions:** 
+
+- how do I import my data?
+- how do I subset specific features?
+- how on earth do I visualize it?
 
 <!--- 
+- I wanted to study these guys. 
+
 - biology undergrad
 - lab work
 - start grad school
@@ -80,6 +127,8 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 - field work
 - PANIC BECAUSE DATA. It's too big for Excel to open, how do I work with it? How do I even think about it if I can't look at it?
 --->
+
+## 
 
 How I learned to program: 
 - in a panic
@@ -133,7 +182,7 @@ In sharing our experiences and practices as we evolved into open science, we hig
 - GitHub + RStudio for organization, documentation, online publishing, distribution, and communication [ohi-science.org](http://ohi-science.org/)
 
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=576&h=336)
+<!--- <p align = 'center'>![](https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=576&h=336) ---> for slidy
 
 ## We've since been improving using open science tools
 
@@ -255,6 +304,9 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 
 
 
+##
+
+--> TODO: quote from Woo et al
 ## 
 
 ![](figures/JSL_filename_screenshot.png)
@@ -285,7 +337,7 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 
 
 <div class="col-lg-5 col-lg-offset-2">
-  ![](image.png)
+  
 
   - Bullet 1
   - Bullet 2
@@ -293,7 +345,7 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 </div>
 
 <div class="col-lg-5">
-  ![](image.png)
+  
 
   - Bullet 1
   - Bullet 2
@@ -301,3 +353,4 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 </div>
 
 
+## This talk url
