@@ -1,5 +1,8 @@
 ---
-title: "Improving reproducibility, collaboration, and communication in marine science using open science tools"
+title: "Exposure and confidence"
+subtitle: "Improving reproducibility, collaboration, and communication in environmental science using open science tools"
+author: Julia Stewart Lowndes  //  lowndes @nceas.ucsb.edu  //  @juliesquid
+date: October 21, 2016
 output:
   ioslides_presentation:
     # incremental: true
@@ -10,49 +13,81 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+<!---
+(while on title slide)
+- Really great to be back at HMS, have been looking forward to this talk
+- In the last few years I've begun to identify myself not only as a marine scientist, but as a programmer, or data scientist. I'll tell you what that means, and how the origins began here at HMS. 
 
-## 
+From my own experience, as well as teaching other scientists how to program through my job, the main barriers for scientists becoming competent programmers are exposure and confidence. 
 
-![](figures/JSL_filename_screenshot.png)
+Chance to talk about a paper I'm about to submit as well 
 
-<!---I'm not even going to ask if this looks familiar because I already know--->
-
-## Punchline
-
-we can be working more efficiently, collaboratively, and reproducibly than we are
-
-<!---This talk is about reproducibility. 
-The punchline is that we as environmental scientists, ecologists can be working more efficiently, collaboratively, and reproducibliy than we are. 
-There are existing tools and existing resources to learn them that will greatly improve your science and make you more equipped for future projects and jobs. These tools have changed our approach to science as much as email did. 
-
-We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing! --->
+I'm hoping this talk will empower everyone; give you exposure and build confidence
+--->
 
 ## Outline
 
-- Improved reproducibility, collaboration and communication with the Ocean Health Index with open science tools
-    <!---We were not able to fully reproduce our own work when we tried.  --->
 - My origins in programming, data science, and open science
+<!---I think this will resonate with you.  --->
+- Improving reproducibility, collaboration and communication in environmental science with open science tools
+<!---
+
+- I'm going to talk about about the tools we use that have fundamentally changed the way we approach science--as much as email did. That's a bold statement because email changed so many things (speed of communication, how many people could be involved in correspondence, attaching data, documentation, images) but it has. 
+- These tools have enabled us to get closer to Reproducibility. And one we embarked on because we were not able to fully reproduce our own work when we tried, largely .  
+--->
 - Resources and recommendations
-    <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
+<!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
 
-## Definitions
 
-**Open science**   
+## Data science and open science
 
-"the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" - *Hampton et al. 2014*
+Open science: "the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" - *Hampton et al. 2014*
 
-<!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account 
+--> TODO: quote from Woo et al
+<!--- 
 
 Continuum. 
 engaging in open science can benefit the individual researcher not only for her own 'future self' but also in the concrete terms of increased citations, media attention, potential collaborators, job opportunities, and funding opportunities--->
 
-**Data science** 
-
 **Tools**
+
+- R/RStudio
+- git/GitHub
+
+
+TODO: images 
 
 <!---But with open science tools, in some ways the benefits of openness are a byproduct of introducing time-saving efficiencies to improve scientific workflows; these tools reduce the headaches that accompany many data-rich workflows, and as a bonus, the resulting science is more transparent, reproducible, and accessible.--->
 
 
+<!---
+I'm going to talk about 2 main open science tools we use and how I couldn't do my job without them. A whole ecosystem of tools and resources to learn them have been developing since I was here at Hopkins and I wish I had had them. So this isn't going to be a normal science talk but more of the tools we use to make our science more reproducible. 
+
+The punchline is that we as environmental scientists, ecologists can be working more efficiently, collaboratively, and reproducibliy than we are. 
+There are existing tools and existing resources to learn them that will greatly improve your science and make you more equipped for future projects and jobs. These tools have changed our approach to science as much as email did. 
+
+We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
+--->
+
+## My origin story - data science
+
+<!--- 
+- biology undergrad
+- lab work
+- start grad school
+- take classes
+- develop thesis topic 
+- field work
+- PANIC BECAUSE DATA. It's too big for Excel to open, how do I work with it? How do I even think about it if I can't look at it?
+--->
+
+How I learned to program: 
+- in a panic
+- in near-isolation*
+- for a single purpose (get this thesis done!)  
+  
+  
+*Steve Haddock
 
 ## Ocean Health Index
 
@@ -146,6 +181,11 @@ In sharing our experiences and practices as we evolved into open science, we hig
 **After**
 
 
+**Details/Resources**
+
+- RStudio demo
+- data wrangling images
+
 ## Reproducibility - modeling
 
 **Before**
@@ -203,9 +243,26 @@ Redesigning our team's workflow required a substantial time investment to learn 
 &nbsp;&nbsp;&nbsp; - with GitHub  
 &nbsp;&nbsp;&nbsp; - through RStudio 
 
+Things that helped me: 
+
+<!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
+
+http://ohi-science.org/news/Resources-for-R-and-Data-Science
+
 ## Becoming a data scientist
 
 ![](figures/PracticalDev.png)
+
+
+
+## 
+
+![](figures/JSL_filename_screenshot.png)
+<!---I'm not even going to ask if this looks familiar because I already know--->
+
+
+
+
 
 
 
