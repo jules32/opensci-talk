@@ -1,2 +1,3 @@
 # opensci-talk
-Talk at Stanford's Hopkins Marine Station, Oct 21, 2016
+
+Talk at my alma mater: Stanford's Hopkins Marine Station, Oct 21, 2016. 

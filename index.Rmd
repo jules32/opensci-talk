@@ -37,11 +37,19 @@ I never thought that I would become a data scientist/programmer. But from my own
 - Chance to talk about a paper I'm about to submit as well 
 - I'm going to talk about about the tools we use that have fundamentally changed the way we approach science--as much as email did. That's a bold statement because email changed so many things (speed of communication, how many people could be involved in correspondence, attaching data, documentation, images) but it has. 
 - These tools have enabled us to get closer to Reproducibility. And one we embarked on because we were not able to fully reproduce our own work when we tried, largely .  
+
+Reproducibiltiy is foundatational to science, but we rarely test it, even with our own work. 
 --->
 
 > - **Resources and recommendations**
 
 <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
+
+## Reproducibility 
+
+Reproducibility is foundatational to science, but we rarely test it, even with our own work. 
+
+Fig of headlines (does this slide fit here)
 
 ## Data science and open science 
 <!---1/3--->
@@ -155,7 +163,7 @@ Conflated science questions
 ## I learned to program like many do
 
 > - in a panic
-- for a single purpose (get this thesis done!)  
+- for a single purpose (get this thesis done!)  <!---but it was scripted! Was able to understand now--->
 - in near-isolation*
 <br>
 <br>
@@ -189,45 +197,86 @@ TODO: image
 
 <!---Without getting into too many details of the project --->
 
-- method to categorize benefits that oceans provide to people ([*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/abs/nature11397.html))
+- method to categorize benefits that oceans provide to people 
 - scores are modeled using existing data 
+- method can be tailored to different geographies
 - can help inform policy decisions, especially when repeated
 
-<img src="figures/ohi-goals-flowerplot.png" height="300px" />
+<figure>
+<p align = 'center'>
+<img src="figures/ohi-goals-flowerplot.png" height="450px" />
+</figure>
 
 
-
-## OHI Assessments
+## OHI Global Assessments
 
 <!---
-We were planning to repeat the global assessment annually and also support other groups that wanted to lead their own assessments. 
+- Assess coastlines of nations and territories
+- Lots of data, ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources
 
+- We were planning to repeat the global assessment annually and also support other groups that wanted to lead their own assessments. 
+
+- highly collaborative
 --->
+
+**2012: OHI method and first global assessment** ([*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/abs/nature11397.html))
+
 <figure>
 <p align = 'center'>
 <img src="figures/ohi-map.png" height="400px" />
 </figure>
 
+
+## OHI Global Assessments
 <!---
-This is why I was hired
+This is when I was hired --->
 
-Currently we have ~26 countries interested. 
-When they come to us to learn the science, reproducibility is baked into OHI, so we teach them
---->
 
+**2013: second annual global assessment**
+
+> - repeat methods
+- update data 
+- compare between years
+
+## OHI Global Assessments
+
+**2013: second annual global assessment**
+
+- repeat methods
+- update data 
+- compare between years  
+<br>
+<br>  
+
+We expected to easily reproduce our previous work. We had planned ahead: 
+
+<!--- standard approaches to marine science/reproduciblity --->
+
+- coded models
+- 130 pages of published supplemental material
+- internal documents and notes
 
 ## We thought we were doing reproducible science
 
-... but we struggled to reproduce our work using standard approaches to reproducibility and collaboration 
-
-- meticulously documenting our methods (130 pages of published supplemental information)
-- highly collaborative
-
+We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
 <!---The effort to develop the first global OHI assessment was highly collaborative, which created additional challenges beyond data preparation. --->
 
-Ultimately, upon beginning the second annual assessment, we had the added challenge of managing multiple years of information and scores and we needed a nimble approach to sharing data, methods, and results within and outside our team. We quickly realized we needed to improve our workflow.
+<!--- 
+- our workflow was too fragmented, relying on different tools and division of labor
+- We quickly realized we needed to improve our workflow.
+--->
 
-In sharing our experiences and practices as we evolved into open science, we highlight two key lessons we learned – making progress requires exposure and confidence, and that the transition can be an evolution rather than a revolution
+- added challenge of managing multiple years of information and scores 
+- we needed a nimble approach to sharing data, methods, and results within and outside our team 
+
+***Lowndes et al. in prep: Improving reproducibility, collaboration, and communication in environmental
+science using open science tools***
+
+underscore the importance of: 
+
+- exposure and confidence
+- evolution rather than revolution
+
 
 ## We identified three main challenges to overcome
 
@@ -236,51 +285,52 @@ In sharing our experiences and practices as we evolved into open science, we hig
 3) **communication** with scientific and public communities
 
 
-## Demos of Main tools
-
-- R and RStudio for coding and visualization
-- Git for version control, [GitHub](https://github.com) for collaboration 
-- GitHub + RStudio for organization, documentation, online publishing, distribution, and communication [ohi-science.org](http://ohi-science.org/)
-
-
-<!--- <p align = 'center'>![](https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=576&h=336) ---> for slidy
-
-## We've since been improving using open science tools
+## Addressing challenges using open science tools
 
 <!---will talk a bit about the cultural changes in reproduciblity and collaboration--->
 
-**reproducibility**
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
+</figure>
 
-- data preparation: coding and documenting
-- modeling: `R` functions and packages
-- version control
-- organization
-
-**collaboration**
-
-- teamwork
-- (simplified) GitHub workflow
-
-**communication**
-
-- sharing data and code
-- sharing methods and instruction
-
-
-
-
-- collaboration among team members 
 <!---large, distributed team structure, division of labor--->
 
-<!---will go through each and tell before and after--->
-
+<!---I'm just going to give an example or two of each; will describe before and after; happy to discuss more afters and will let you read the paper when it comes out--->
 
 ## Reproducibility - data preparation 
 
-<!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
+*"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in the mundane labor of collecting and preparing data, before it can be explored for useful information." - [NYTimes (2014)](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)*
 
 - transforming, rescaling, gap-filling, formatting, etc
-- seldom mentioned but underpins the scientific process, taking up to 50-80% of a data scientist's time *(Lohr, New York Times 2014)*
+- seldom mentioned but underpins the scientific process
+
+## Reproducibility - data preparation 
+
+*"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in the mundane labor of collecting and preparing data, before it can be explored for useful information." - [NYTimes (2014)](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)*
+
+- transforming, rescaling, gap-filling, formatting, etc
+- seldom mentioned but underpins the scientific process
+
+Ultimate goal: **Tidy data** *([Wickham 2014](https://www.jstatsoft.org/article/view/v059i10))*
+
+<figure>
+<p align = 'center'>
+<img src="figures/tidy_data_r4ds.png" height="200px" />
+</figure>
+
+## Reproducibility - data preparation 
+
+<!---let me show you what I'm talking about--->
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1_u_GH9go5ksHKiJkUEIaGZleKBOKawEDIGEM0WwAPtI/pub?w=960&h=720" height="500px" />
+</figure>
+
+
+## Reproducibility - data preparation 
+<!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
 
 **Before**
 
@@ -288,57 +338,126 @@ In sharing our experiences and practices as we evolved into open science, we hig
 - largely Microsoft Excel
 - internal documents and emails
 
-**After**
-
-
-**Details/Resources**
-
-- RStudio demo
-- data wrangling images
-
-## Reproducibility - modeling
-
-**Before**
-
 
 **After**
+
+- full process coded 
+    - R with documentation 
+    - RMarkdown
+
+## Reproducibility - data preparation 
+
+Data wrangling with the grammar of data manipulation and tidy data 
+<br>
+[Grolemund & Wickham 2016: *R for Data Science*](http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering)
+<!---    
+- increases readability
+- reduces potential for error
+--->
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/13bmCXXHWK7vzLcgqHsgadevTQq_XgwLnoOvQjO5an1s/pub?w=672&h=480" height="400px" />
+</figure>
+
+<!---    
+not going to get into this more, but I love talking about this: I teach whole courses on this
+
+can achieve the same operations in half of the lines of code with single functions for deliberate tasks and 'chaining' to minimize temporary variables30,31; this greatly increases readability and reduces the potential for error.
+
+--->
+
+## Reproducibility - version control
+
+<!---    
+this is something I did not appreciate the first few times I was introduced to it. I thought, I work alone, I have a fine system of versioning
+--->
+
+TODO: version control quote
+
+<figure>
+<p align = 'center'>
+<img src="figures/JSL_filename_screenshot.png" height="400px" />
+</figure>
+
+
+<!---I'm not even going to ask if this looks familiar because I already know--->
 
 ## Reproducibility - version control
 
 **Before**
 
+- filenames suffixed with dates, initials (e.g. `final.csv` and `final_JL-2016-08-05.csv`)
+- email descriptions of what changed between files
 
 **After**
 
-## Reproducibility - organization
+- version control with `git`
+- short messages accompany commited changes
+
+
+## Collaboration
+
+TODO: Collaboration quote
+
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1QXluEeWXV4AYDRgxGhe9VItR1y5mrsNj2--mPdWLgtA/pub?w=672&h=384" height="300px" />
+</figure>
+
+## Collaboration
 
 **Before**
 
+- team structure: scientists and single programmer
+- discrete tasks: 
+    - scientists developed the models conceptually, gathered data, prepared data, interpreted modeled results
+    - programmer coded the models. 
+- communication + file sharing: email chains (often forwarded). 
+- organization: individual conventions on local computers
 
 **After**
 
-## Collaboratation
+- team structure: data scientists
+- workflow: (simplified) GitHub workflow
+
+<!---Redesigning our team's workflow required a substantial time investment to learn the tools, and a paradigm shift in our approach to collaboration. Previous to this investment, most team members with any coding experience had learned just enough to accomplish specific tasks (not necessarily in R), and had developed unique conventions. Given the complexity of the project, we needed to learn to code collaboratively and incorporate best practices into our coding25 so that methods for data preparation and modeling could be co-developed and vetted by multiple team members. Further, using a version control system allowed individuals to feel less inhibited about their coding contributions, since files could always be reverted back to previous versions if there were problems.
+
+email chains or memory. This lack of transparency and repeatability was even more problematic for new team members--->
+
+## Communication
 
 **Before**
 
-Within the team, scientists were responsible for developing the models conceptually, gathering data, and interpreting modeled results, and a single programmer was responsible for coding the models. We communicated and shared files frequently, with email conversations often sent between subsets of the core team. We shared multiple versions of files (e.g. data_v3.xls, scores_final_updated2.csv) through long and often-forwarded email chains (Re: Fwd: data question), with all team members organizing those files on their local computers with their own conventions. 
+- published manuscripts
+- data on FTP server
+
+**After**
+
+- published manuscripts
+- work openly on GitHub [github.com/OHI-Science](https://github.com/ohi-science)
+- website with methods, instruction, data [OHI-Science.org](http:ohi-science.org)
+
+## Work in progress
+
+- incremental
+- always improving, learning, teaching
 
 
-Redesigning our team's workflow required a substantial time investment to learn the tools, and a paradigm shift in our approach to collaboration. Previous to this investment, most team members with any coding experience had learned just enough to accomplish specific tasks (not necessarily in R), and had developed unique conventions. Given the complexity of the project, we needed to learn to code collaboratively and incorporate best practices into our coding25 so that methods for data preparation and modeling could be co-developed and vetted by multiple team members. Further, using a version control system allowed individuals to feel less inhibited about their coding contributions, since files could always be reverted back to previous versions if there were problems.
+## OHI Today
 
-<!---email chains or memory. This lack of transparency and repeatability was even more problematic for new team members--->
+with these efforts, we now have 26 countries interested
+
+demo http://ohi-science.org/
+
+Training (incl. Software Carpentry)
 
 
-## My origins in programming and data science
-
-- as a grad student I learned due to panic
-- just needed to get the job done
-- PCfB
-- resistant to version control
-
-<!---Best practices and good enough practices --->
 
 ## My recommendations
+
+**Introduce these concepts incrementally: evolution not revolution**
 
 **1 - Learn to code; script your work** 
 
@@ -370,13 +489,53 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 --> TODO: quote from Woo et al
 ## 
 
-![](figures/JSL_filename_screenshot.png)
-<!---I'm not even going to ask if this looks familiar because I already know--->
 
 
 
 
 
+## Demos of Main tools
+
+- R and RStudio for coding and visualization
+- Git for version control, [GitHub](https://github.com) for collaboration 
+- GitHub + RStudio for organization, documentation, online publishing, distribution, and communication [ohi-science.org](http://ohi-science.org/)
 
 
-## This talk url
+## Extra slides
+
+## Improving using open science tools
+
+**reproducibility**
+
+- data preparation: coding and documenting
+- modeling: `R` functions and packages
+- version control
+- organization
+
+**collaboration**
+
+- teamwork
+- (simplified) GitHub workflow
+
+**communication**
+
+- sharing data and code
+- sharing methods and instruction
+
+## My origins in programming and data science
+
+- as a grad student I learned due to panic
+- just needed to get the job done
+- PCfB
+- resistant to version control
+
+<!---Best practices and good enough practices --->
+
+# WSN plug
+
+15-minute version of this talk:  
+
+Friday, Nov 11 
+
+Session 7 'Windjammer' room
+
