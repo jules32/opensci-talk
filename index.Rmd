@@ -1,18 +1,21 @@
 ---
 title: "Exposure and confidence"
-author: "Julia Stewart Lowndes  //  lowndes @nceas.ucsb.edu  //  @juliesquid"
-date: "October 21, 2016"
+author: "Julia Stewart Lowndes PhD  //  lowndes @nceas.ucsb.edu"
+author2: "xyx"
+date: "October 21, 2016, Hopkins Marine Station, Stanford University"
 output:
   ioslides_presentation:
-    smaller: yes
+   # smaller: yes
     widescreen: yes
+    # logo: figures/OHI_logo.png
   slidy_presentation: default
 subtitle: Improving reproducibility, collaboration, and communication in environmental
   science using open science tools
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
+                      echo=FALSE, warning=FALSE, message=FALSE)
 ```
 <!---
 (while on title slide)
@@ -42,15 +45,32 @@ I never thought that I would become a data scientist/programmer. But from my own
 <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
 
 ## Data science and open science 
-
+<!---1/3--->
 **Data Science**:  
 
 "an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
 ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
 
-![](figures/r4ds_data-science.png) <img height="40px" />
 
-**Open science**:  
+## Data science and open science 
+<!---2/3--->
+**Data Science**:  
+
+"an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
+([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
+
+<img src="figures/r4ds_data-science.png" height="200px"/>
+
+## Data science and open science 
+<!---3/3--->
+**Data Science**:  
+
+"an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
+([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
+
+<img src="figures/r4ds_data-science.png" height="200px"/>
+
+**Open Science**:  
 
 "the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" ([*Hampton et al. 2014*](http://onlinelibrary.wiley.com/doi/10.1890/ES14-00402.1/full))
 
@@ -63,7 +83,7 @@ these tools reduce the headaches that accompany many data-rich workflows, and as
 
 ## Data science and open science tools
 
-I'll be focusing on these tools: 
+I primarily use these tools: 
 
 - [**R**](https://cran.r-project.org/)
 - [**RStudio**](https://www.rstudio.com/)
@@ -95,64 +115,106 @@ There are existing tools and existing resources to learn them that will greatly 
 We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
 --->
 
-## My origins story
+## My origins story {.fig_retina}
 
-![](figures/_JulieReleaseAugerIMG_9311_reduced.png)
+<img src="figures/_JulieReleaseAugerIMG_9311_reduced.png" height="400px"/>
 
-## Science v. data science {.columns-2}
 
-**Science questions:**
+## Some thesis questions 
+
+> - what are Humboldt squid habitat preferences?
+- what season are they most abundant?
+- how fast and far can they migrate?
+- how do they interact with other species? 
+- how do I import my data when it's too big for Excel?
+- how do I subset years or other attributes?
+- how on earth do I visualize any of this?
+
+
+## Conflated questions {.smaller .columns-2}
+
+**Science:**
 
 - what are their habitat preferences?
 - what season are they most abundant?
+- how fast and far can they migrate?
 - how do they interact with other species? 
 <br>
 <br>
 <br>
 
-**Data science questions:** 
+**Data science:** 
 
-- how do I import my data?
-- how do I subset specific features?
-- how on earth do I visualize it?
+- how do I import my data when it's too big for Excel?
+- how do I subset years or other attributes?
+- how on earth do I visualize any of this?
 
 <!--- 
-- I wanted to study these guys. 
-
-- biology undergrad
-- lab work
-- start grad school
-- take classes
-- develop thesis topic 
-- field work
-- PANIC BECAUSE DATA. It's too big for Excel to open, how do I work with it? How do I even think about it if I can't look at it?
+Conflated science questions
 --->
 
-## 
+## I learned to program like many do
 
-How I learned to program: 
-- in a panic
-- in near-isolation*
+> - in a panic
 - for a single purpose (get this thesis done!)  
+- in near-isolation*
+<br>
+<br>
+<br>
+
+## I learned to program like many do
+
+- in a panic
+- for a single purpose (get this thesis done!)  
+- in near-isolation*
+<br>
+<br>
+<br>
   
-  
-*Steve Haddock
+\* Thankfully, I had wonderful programming mentors: 
+
+Steve Haddock, Dave Foley, Ashley Booth
+
+<img src="figures/PCfB_screenshot.png" height="100px"/>
+
+<!---with these mentors I was able to learn Matlab, answer my questions, and graduate! --->
+
+
+## NCEAS, UC Santa Barbara
+
+TODO: image
+
+<!---Let's continue on to NCEAS where I've grown as a data scientist.  --->
 
 ## Ocean Health Index
 
-<!---Without getting into too many details of the project, --->
+<!---Without getting into too many details of the project --->
 
-- collaborative project synthesizing existing data into scores for benefits that oceans provide to people
-- scores can be used for policy decisions
-- Currently 26 assessments, including 5 Global assessments
-<!---26 government and academic groups involved, including the Baltic Sea, Canada, China, and Colombia--->
+- method to categorize benefits that oceans provide to people ([*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/abs/nature11397.html))
+- scores are modeled using existing data 
+- can help inform policy decisions, especially when repeated
+
+<img src="figures/ohi-goals-flowerplot.png" height="300px" />
 
 
-## OHI Global assessments
 
-- 5 years of calculated scores
+## OHI Assessments
 
-[image: Nature paper 2012] 
+<!---
+We were planning to repeat the global assessment annually and also support other groups that wanted to lead their own assessment. 
+
+
+--->
+
+<img src="figures/ohi-map.png" height="400px" />
+
+
+<!---
+This is why I was hired
+
+Currently we have ~26 countries interested. 
+When they come to us to learn the science, reproducibility is baked into OHI, so we teach them
+--->
 
 
 ## We thought we were doing reproducible science
@@ -316,41 +378,6 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 
 
 
-
-
-
-## Test
-
-<div class="row">
-  <div class="col-sm-4">
-  - Bullet 1
-  - Bullet 2
-  - Bullet 3
-  </div>
-  
-<div class="col-sm-4">
-  - Bullet 1
-  - Bullet 2
-  - Bullet 3
-  </div>
-</div>
-
-
-<div class="col-lg-5 col-lg-offset-2">
-  
-
-  - Bullet 1
-  - Bullet 2
-  - Bullet 3
-</div>
-
-<div class="col-lg-5">
-  
-
-  - Bullet 1
-  - Bullet 2
-  - Bullet 3
-</div>
 
 
 ## This talk url
