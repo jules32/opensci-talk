@@ -1,7 +1,6 @@
 ---
 title: "Exposure and confidence"
-author: "Julia Stewart Lowndes PhD  //  lowndes @nceas.ucsb.edu"
-author2: "xyx"
+author: "Julia Stewart Lowndes, PhD  //  lowndes @nceas.ucsb.edu"
 date: "October 21, 2016, Hopkins Marine Station, Stanford University"
 output:
   ioslides_presentation:
@@ -201,13 +200,13 @@ TODO: image
 ## OHI Assessments
 
 <!---
-We were planning to repeat the global assessment annually and also support other groups that wanted to lead their own assessment. 
-
+We were planning to repeat the global assessment annually and also support other groups that wanted to lead their own assessments. 
 
 --->
-
+<figure>
+<p align = 'center'>
 <img src="figures/ohi-map.png" height="400px" />
-
+</figure>
 
 <!---
 This is why I was hired
