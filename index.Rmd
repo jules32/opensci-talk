@@ -442,24 +442,34 @@ email chains or memory. This lack of transparency and repeatability was even mor
 ## Work in progress
 
 - incremental
-- always improving, learning, teaching
+- always improving, learning
+- teaching and training, support
 
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="350px" />
+</figure>
 
 ## OHI Today
 
-with these efforts, we now have 26 countries interested
+These tools and this workflow make our work possible. 
 
-demo http://ohi-science.org/
+- December 8 2016: releasing 5th global assessment
+- Support and training for ~26 government or academic 'OHI+' assessments
 
-Training (incl. Software Carpentry)
+<!---and this paper will be coming out--->
 
+All on [ohi-science.org](http://ohi-science.org)
+
+<figure>
+<p align = 'center'>
+<img src="figures/ohi-science-org.png" height="200px" />
+</figure>
 
 
 ## My recommendations
 
-**Introduce these concepts incrementally: evolution not revolution**
-
-**1 - Learn to code; script your work** 
+**1 - Learn to code** 
 
 &nbsp;&nbsp;&nbsp; - in R  
 &nbsp;&nbsp;&nbsp; - with RStudio
@@ -470,25 +480,47 @@ Training (incl. Software Carpentry)
 
 &nbsp;&nbsp;&nbsp; - git  
 &nbsp;&nbsp;&nbsp; - with GitHub  
-&nbsp;&nbsp;&nbsp; - through RStudio 
-
-Things that helped me: 
+&nbsp;&nbsp;&nbsp; - through RStudio  
 
 <!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
+**Introduce these concepts incrementally: evolution not revolution**  
 
-http://ohi-science.org/news/Resources-for-R-and-Data-Science
+## Great resources
 
-## Becoming a data scientist
+Books, trainings, and webinars that helped me: 
 
-![](figures/PracticalDev.png)
+- [ohi-science.org/news: Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
+
+<br>
+<br>
+Recent academic publications: 
+
+- "How open science helps researchers succeed" [*McKiernan et al. 2016*](https://elifesciences.org/content/5/e16800v2)
+- "Best Practices for Scientific Computing" [*Wilson et al. 2014*](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+- "Good Enough Practices for Scientific Computing" [*Wilson et al. 2016*](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/)
 
 
+## Secrets of becoming a programmer 
 
-##
+<!--- now that you've got the exposure, this will give you confidence --->
 
---> TODO: quote from Woo et al
+<figure>
+<p align = 'center'>
+<img src="figures/PracticalDev.png" height="200px" />
+</figure>
+
+**THANK YOU**  
+<br>
+email: lowndes @nceas.ucsb.edu  
+twitter: @juliesquid  
+talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk)  
+<br>
+**15-minute version of this talk at WSN**: Friday, Nov 11, Session 7, 3pm  
+**NCEAS is hiring**: [www.nceas.ucsb.edu/positionsopen](https://www.nceas.ucsb.edu/positionsopen)
+
+
 ## 
-
+--> TODO: quote from Woo et al
 
 
 
@@ -531,11 +563,5 @@ http://ohi-science.org/news/Resources-for-R-and-Data-Science
 
 <!---Best practices and good enough practices --->
 
-# WSN plug
 
-15-minute version of this talk:  
-
-Friday, Nov 11 
-
-Session 7 'Windjammer' room
 
