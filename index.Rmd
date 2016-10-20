@@ -21,7 +21,9 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 - Really great to be back at HMS, have been looking forward to this talk
 - In the last few years I've begun to identify myself not only as a marine scientist and amateur programmer, but as a data scientist and advocate of open science. 
 
-I never thought that I would become a data scientist/programmer. But from my own experience, as well as through teaching other scientists how to program, the main barriers for scientists becoming competent programmers are exposure and confidence. I'm hoping this talk will empower everyone; give you exposure and build confidence
+I never thought that I would become a data scientist/programmer. I was pretty intimidated by programming.  But from my own experience, as well as through teaching other scientists how to program, the main barriers for scientists becoming competent programmers are exposure and confidence. 
+
+This is not a typical research talk but I'm going to share some of what I and my team has learned, and I'm hoping this talk will empower everyone; give you exposure and build confidence
 
 
 To center: 
@@ -38,31 +40,22 @@ This text is red
 
 
 
-## Exposure and confidence
+## Outline
 
-> - **My origins in programming, data science, and open science**
-
+- **My origins in programming, data science, and open science**
+<br>
 <!---I think this will resonate with you.  --->
 
-> - **Improving reproducibility, collaboration and communication in environmental science with open science tools**
+- **Improving reproducibility, collaboration and communication in environmental science with open science tools**
+<br>
+    - *Lowndes et al., in prep*
+    - reproducibility is fundamental to science, but rarely tested
+    - these tools have fundamentally changed how we do science <!--- as much as email did --->
 
-<!---
-- Chance to talk about a paper I'm about to submit as well 
-- I'm going to talk about about the tools we use that have fundamentally changed the way we approach science--as much as email did. That's a bold statement because email changed so many things (speed of communication, how many people could be involved in correspondence, attaching data, documentation, images) but it has. 
-- These tools have enabled us to get closer to Reproducibility. And one we embarked on because we were not able to fully reproduce our own work when we tried, largely .  
-
-Reproducibiltiy is foundatational to science, but we rarely test it, even with our own work. 
---->
-
-> - **Resources and recommendations**
+- **Resources and recommendations**
+    - exposure and confidence: learning the tools available and using them
 
 <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
-
-## Reproducibility 
-
-Reproducibility is foundatational to science, but we rarely test it, even with our own work. 
-
-TODO Fig of headlines (does this slide fit here)
 
 ## Data science and open science 
 <!---1/3--->
@@ -79,7 +72,10 @@ TODO Fig of headlines (does this slide fit here)
 "an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
 ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
 
-<img src="figures/r4ds_data-science.png" height="200px"/>
+<figure>
+<p align = 'center'>
+<img src="figures/r4ds_data-science.png" height="200px" />
+</figure>
 
 ## Data science and open science 
 <!---3/3--->
@@ -90,7 +86,7 @@ TODO Fig of headlines (does this slide fit here)
 
 <figure>
 <p align = 'center'>
-<img src="figures/r4ds_data-science.png" height="450px" />
+<img src="figures/r4ds_data-science.png" height="200px" />
 </figure>
 
 **Open Science**:  
@@ -104,30 +100,35 @@ these tools reduce the headaches that accompany many data-rich workflows, and as
 -->
 
 
-## Data science and open science tools
+## Open science tools {.smaller}
 
-I primarily use these tools: 
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/19m4VRz0vhUToE-QwNF2BODVFpoicLm5LGuH9o2PVvGs/pub?w=624&h=480" height="400px" />
+</figure>
 
-- [**R**](https://cran.r-project.org/)
-- [**RStudio**](https://www.rstudio.com/)
-- [**git**](https://git-scm.com/)
-- [**GitHub**](https://www.github.com/)
-
-TODO: images 
-
-This talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)
-
-<!---
-
-really powerful tools for analysis, collaboration and communication. Will be showing/demoing a bit later, but so you know: 
-
-- this presentation was created with RMarkdown by RStudio
-- versioned with git
-- shared pubicly with collaborators and you by GitHub. This is the URL if you want to use this as a reference; all these are live links
+links: [**R**](https://cran.r-project.org/), [**RStudio**](https://www.rstudio.com/), [**git**](https://git-scm.com/), [**GitHub**](https://www.github.com/)
 
 
---->
+## Open science workflow {.smaller}
 
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=600" height="300px" />
+</figure>
+
+## Open science workflow {.smaller}
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=600" height="300px" />
+</figure>
+
+this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)
+ 
+ - written in RStudio's [RMarkdown](http://rmarkdown.rstudio.com/)
+ - versioned with Git
+ - shared with GitHub
 
 <!---
 I'm going to talk about 2 main open science tools we use and how I couldn't do my job without them. A whole ecosystem of tools and resources to learn them have been developing since I was here at Hopkins and I wish I had had them. So this isn't going to be a normal science talk but more of the tools we use to make our science more reproducible. 
@@ -138,9 +139,16 @@ There are existing tools and existing resources to learn them that will greatly 
 We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
 --->
 
-## My origins story {.fig_retina}
+## My programming origins story {.smaller}
 
+<figure>
+<p align = 'center'>
 <img src="figures/_JulieReleaseAugerIMG_9311_reduced.png" height="400px"/>
+</figure>
+
+<div class="centered">
+*Photo credit: Greg Auger*
+</div>
 
 
 ## Some thesis questions 
@@ -151,7 +159,8 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 - how do they interact with other species? 
 - how do I import my data when it's too big for Excel?
 - how do I subset years or other attributes?
-- how on earth do I visualize any of this?
+- how do I visualize this?
+- how on earth do I even think about this?
 
 
 ## Conflated questions {.smaller .columns-2}
@@ -165,15 +174,23 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 **Data science:** 
 
 - how do I import my data when it's too big for Excel?
 - how do I subset years or other attributes?
-- how on earth do I visualize any of this?
+- how do I visualize this?
+- how on earth do I even think about this?
+<img src="figures/r4ds_data-science.png" height="150px" />
+
 
 <!--- 
-Conflated science questions
+Conflated science questions, easy to get discouraged
 --->
 
 ## I learned to program like many do
@@ -209,19 +226,36 @@ TODO: image
 
 <!---Let's continue on to NCEAS where I've grown as a data scientist.  --->
 
-## Ocean Health Index
+## Ocean Health Index {.smaller}
 
 <!---Without getting into too many details of the project --->
 
-- method to categorize benefits that oceans provide to people 
-- scores are modeled using existing data 
-- method can be tailored to different geographies
-- can help inform policy decisions, especially when repeated
+method to categorize benefits that oceans provide to people  
+
+scores are modeled using existing data; data intensive  
 
 <figure>
 <p align = 'center'>
-<img src="figures/ohi-goals-flowerplot.png" height="450px" />
+<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
 </figure>
+
+## Ocean Health Index {.smaller}
+
+<!---Without getting into too many details of the project --->
+
+method to categorize benefits that oceans provide to people  
+
+scores are modeled using existing data; data intensive  
+
+<figure>
+<p align = 'center'>
+<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
+</figure>
+
+method can be tailored to different geographies  
+
+can help inform policy decisions, especially when repeated
+
 
 
 ## OHI Global Assessments
@@ -250,7 +284,7 @@ This is when I was hired --->
 
 **2013: second annual global assessment**
 
-> - repeat methods
+- repeat methods
 - update data 
 - compare between years
 
@@ -277,28 +311,54 @@ We expected to easily reproduce our previous work. We had planned ahead:
 We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
 <!---The effort to develop the first global OHI assessment was highly collaborative, which created additional challenges beyond data preparation. --->
 
-<!--- 
-- our workflow was too fragmented, relying on different tools and division of labor
-- We quickly realized we needed to improve our workflow.
---->
+## We thought we were doing reproducible science
+
+We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
+
+...mainly due to our approaches to data preparation...i.e. data science 
+
+<figure>
+<p align = 'center'>
+<img src="figures/r4ds_data-science.png" height="200px" />
+</figure>
+
+
+## We thought we were doing reproducible science
+
+We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
+
+...mainly due to our approaches to data preparation...i.e. data science 
+
+<figure>
+<p align = 'center'>
+<img src="figures/r4ds_data-science.png" height="200px" />
+</figure>
 
 - added challenge of managing multiple years of information and scores 
 - we needed a nimble approach to sharing data, methods, and results within and outside our team 
 
-***Lowndes et al. in prep: Improving reproducibility, collaboration, and communication in environmental
-science using open science tools***
-
-underscore the importance of: 
-
-- exposure and confidence
-- evolution rather than revolution
-
 
 ## We identified three main challenges to overcome
 
-1) **reproducibility**, including transparency and repeatability, particularly in data preparation
+1) **reproducibility**, including transparency and repeatability, esp. data prep
 2) **collaboration**, including teamwork and internal collaboration
 3) **communication** with scientific and public communities
+
+## We identified three main challenges to overcome
+
+1) **reproducibility**, including transparency and repeatability, esp. data prep
+2) **collaboration**, including teamwork and internal collaboration
+3) **communication** with scientific and public communities
+
+<br>
+<br>
+<br>
+
+*Lowndes et al. Improving reproducibility, collaboration, and communication in environmental
+science using open science tools, in prep*
+
+- exposure and confidence
+- evolution rather than revolution
 
 
 ## Addressing challenges using open science tools
@@ -318,7 +378,7 @@ underscore the importance of:
 
 *"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in the mundane labor of collecting and preparing data, before it can be explored for useful information." - [NYTimes (2014)](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)*
 
-- transforming, rescaling, gap-filling, formatting, etc
+- transforming, rescaling, gap-filling, formatting, etc.
 - seldom mentioned but underpins the scientific process
 
 ## Reproducibility - data preparation 
@@ -328,12 +388,6 @@ underscore the importance of:
 - transforming, rescaling, gap-filling, formatting, etc
 - seldom mentioned but underpins the scientific process
 
-Ultimate goal: **Tidy data** *([Wickham 2014](https://www.jstatsoft.org/article/view/v059i10))*
-
-<figure>
-<p align = 'center'>
-<img src="figures/tidy_data_r4ds.png" height="200px" />
-</figure>
 
 ## Reproducibility - data preparation 
 
@@ -343,7 +397,6 @@ Ultimate goal: **Tidy data** *([Wickham 2014](https://www.jstatsoft.org/article/
 <p align = 'center'>
 <img src="https://docs.google.com/drawings/d/1_u_GH9go5ksHKiJkUEIaGZleKBOKawEDIGEM0WwAPtI/pub?w=960&h=720" height="500px" />
 </figure>
-
 
 ## Reproducibility - data preparation 
 <!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
@@ -376,12 +429,33 @@ Data wrangling with the grammar of data manipulation and tidy data
 <img src="https://docs.google.com/drawings/d/13bmCXXHWK7vzLcgqHsgadevTQq_XgwLnoOvQjO5an1s/pub?w=672&h=480" height="400px" />
 </figure>
 
+
+## Reproducibility - data preparation {.smaller}
+Data wrangling with the grammar of data manipulation and tidy data ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering))
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/13bmCXXHWK7vzLcgqHsgadevTQq_XgwLnoOvQjO5an1s/pub?w=672&h=480" height="250px" />
+</figure>
+
+Ultimate goal: **Tidy data** *([Wickham 2014](https://www.jstatsoft.org/article/view/v059i10))*
+
+<figure>
+<p align = 'center'>
+<img src="figures/tidy_data_r4ds.png" height="150px" />
+</figure>
+
 <!---    
 not going to get into this more, but I love talking about this: I teach whole courses on this
 
 can achieve the same operations in half of the lines of code with single functions for deliberate tasks and 'chaining' to minimize temporary variables30,31; this greatly increases readability and reduces the potential for error.
 
 --->
+
+## Reproducibility - version control
+
+TODO: version control quote
+
 
 ## Reproducibility - version control
 
@@ -403,7 +477,8 @@ TODO: version control quote
 
 **Before**
 
-- filenames suffixed with dates, initials (e.g. `final.csv` and `final_JL-2016-08-05.csv`)
+- filenames suffixed with dates, initials 
+    - e.g. `final.csv` and `final_JL-2016-08-05.csv`
 - email descriptions of what changed between files
 
 **After**
@@ -411,8 +486,21 @@ TODO: version control quote
 - version control with `git`
 - short messages accompany commited changes
 
+## Reproducibility - version control {.smaller}
 
-## Collaboration
+<figure>
+<p align = 'center'>
+<img src="figures/git-commits.png" height="400px" />
+</figure>
+
+Demo: [link](https://github.com/jules32/opensci-talk/commits/gh-pages/index.Rmd)
+
+## Collaboration - communication + file sharing
+
+TODO: Collaboration quote
+
+
+## Collaboration - communication + file sharing
 
 TODO: Collaboration quote
 
@@ -422,27 +510,37 @@ TODO: Collaboration quote
 <img src="https://docs.google.com/drawings/d/1QXluEeWXV4AYDRgxGhe9VItR1y5mrsNj2--mPdWLgtA/pub?w=672&h=384" height="300px" />
 </figure>
 
-## Collaboration
+## Collaboration - communication + file sharing
 
 **Before**
 
-- team structure: scientists and single programmer
-- discrete tasks: 
-    - scientists developed the models conceptually, gathered data, prepared data, interpreted modeled results
-    - programmer coded the models. 
-- communication + file sharing: email chains (often forwarded). 
-- organization: individual conventions on local computers
+- email chains (often forwarded) 
 
 **After**
 
-- team structure: data scientists
-- workflow: (simplified) GitHub workflow
+- GitHub issues
+
+<!---
+record of history
+tag specific people
+close tasks
+--->
 
 <!---Redesigning our team's workflow required a substantial time investment to learn the tools, and a paradigm shift in our approach to collaboration. Previous to this investment, most team members with any coding experience had learned just enough to accomplish specific tasks (not necessarily in R), and had developed unique conventions. Given the complexity of the project, we needed to learn to code collaboratively and incorporate best practices into our coding25 so that methods for data preparation and modeling could be co-developed and vetted by multiple team members. Further, using a version control system allowed individuals to feel less inhibited about their coding contributions, since files could always be reverted back to previous versions if there were problems.
 
 email chains or memory. This lack of transparency and repeatability was even more problematic for new team members--->
 
-## Communication
+## Collaboration - communication + file sharing {.smaller}
+
+<figure>
+<p align = 'center'>
+<img src="figures/issues_ex.png" height="400px" />
+</figure>
+
+Demo [link](https://github.com/OHI-Science/issues/issues/621) (private)
+
+
+## Communication - sharing data, code, methods
 
 **Before**
 
@@ -454,6 +552,17 @@ email chains or memory. This lack of transparency and repeatability was even mor
 - published manuscripts
 - work openly on GitHub [github.com/OHI-Science](https://github.com/ohi-science)
 - website with methods, instruction, data [OHI-Science.org](http:ohi-science.org)
+
+## Communication - sharing data, code, methods {.smaller .columns-2}
+
+<img src="figures/github-ohi-science.png" height="200px" />
+<br>
+Demo: [github.com/OHI-Science](https://github.com/ohi-science)
+
+
+<img src="figures/ohi-science-org.png" height="200px" />
+<br>
+Demo: [OHI-Science.org](http:ohi-science.org)
 
 ## Work in progress
 
@@ -483,64 +592,79 @@ All on [ohi-science.org](http://ohi-science.org)
 </figure>
 
 
-## My recommendations
+## My recommendations | You've had a bit of exposure of these tools. Next: build confidence.
 
 **1 - Learn to code** 
 
-&nbsp;&nbsp;&nbsp; - in R  
-&nbsp;&nbsp;&nbsp; - with RStudio
+&nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
+&nbsp;&nbsp;&nbsp; - with [**RStudio**](https://www.rstudio.com/)  
 
 <!---IDE makes it less intimdating, and so many features for new and seasoned programmers alike--->
 
 **2 - Use version control**
 
-&nbsp;&nbsp;&nbsp; - git  
-&nbsp;&nbsp;&nbsp; - with GitHub  
-&nbsp;&nbsp;&nbsp; - through RStudio  
+&nbsp;&nbsp;&nbsp; - [**git**](https://git-scm.com/)  
+&nbsp;&nbsp;&nbsp; - with [**GitHub**](https://www.github.com/)  
+&nbsp;&nbsp;&nbsp; - through [**RStudio**](https://www.rstudio.com/)  
 
 <!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
 **Introduce these concepts incrementally: evolution not revolution**  
 
-## Great resources
 
-Books, trainings, and webinars that helped me: 
+## Great resources {.smaller}
+
+**Books, trainings, and webinars**: 
 
 - [ohi-science.org/news: Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
 
 <br>
 <br>
-Recent academic publications: 
+**Recent academic publications**: 
 
-- "How open science helps researchers succeed" [*McKiernan et al. 2016*](https://elifesciences.org/content/5/e16800v2)
-- "Best Practices for Scientific Computing" [*Wilson et al. 2014*](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-- "Good Enough Practices for Scientific Computing" [*Wilson et al. 2016*](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/)
+- "How open science helps researchers succeed" ([*McKiernan et al. 2016*](https://elifesciences.org/content/5/e16800v2))
+- "Best Practices for Scientific Computing" ([*Wilson et al. 2014*](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745))
+- "Good Enough Practices for Scientific Computing" ([*Wilson et al. 2016*](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/))
+
+<br>
+<br>
+
+These help "dispel the misconception that these skills are intuitive, obvious, or in any way inherent"  
+([*Mills 2015*](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups))
 
 
-## Secrets of becoming a programmer 
+## Exposure and confidence | And the secret of becoming a scientific programmer  {.smaller .columns-2}
 
 <!--- now that you've got the exposure, this will give you confidence --->
 
 <figure>
 <p align = 'center'>
-<img src="figures/PracticalDev.png" height="200px" />
+<img src="figures/practicalDev_changingstuff.jpg" height="400px" />
 </figure>
 
-**THANK YOU**  
 <br>
+
+**THANK YOU!**  
+<br>
+
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid  
 talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk)  
 <br>
-**15-minute version of this talk at WSN**: Friday, Nov 11, Session 7, 3pm  
-**NCEAS is hiring**: [www.nceas.ucsb.edu/positionsopen](https://www.nceas.ucsb.edu/positionsopen)
+
+**15-minute version of this talk at WSN**:  
+Friday, Nov 11, Session 7, 3pm  
+<br>
+**NCEAS is hiring**: [nceas.ucsb.edu/positionsopen](https://www.nceas.ucsb.edu/positionsopen)
 
 <!---
-Deputy Director
-Scientific Programmer
-Scientific web developer/designer
-Training and Outreach Coordinator
-Projects Data Coordinator
+- Deputy Director
+- Scientific Programmer
+- Scientific web developer/designer
+- Training and Outreach Coordinator
+- Projects Data Coordinator
 --->
+
+
 
 
 
@@ -549,44 +673,6 @@ Projects Data Coordinator
 
 
 
-
-
-## Demos of Main tools
-
-- R and RStudio for coding and visualization
-- Git for version control, [GitHub](https://github.com) for collaboration 
-- GitHub + RStudio for organization, documentation, online publishing, distribution, and communication [ohi-science.org](http://ohi-science.org/)
-
-
-## Extra slides
-
-## Improving using open science tools
-
-**reproducibility**
-
-- data preparation: coding and documenting
-- modeling: `R` functions and packages
-- version control
-- organization
-
-**collaboration**
-
-- teamwork
-- (simplified) GitHub workflow
-
-**communication**
-
-- sharing data and code
-- sharing methods and instruction
-
-## My origins in programming and data science
-
-- as a grad student I learned due to panic
-- just needed to get the job done
-- PCfB
-- resistant to version control
-
-<!---Best practices and good enough practices --->
-
+##
 
 
