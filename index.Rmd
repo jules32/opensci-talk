@@ -199,7 +199,7 @@ Conflated science questions, easy to get discouraged
 
 > - in a panic
 - for a single purpose (get this thesis done!)  <!---but it was scripted! Was able to understand now--->
-- in near-isolation*
+- in isolation*
 <br>
 <br>
 <br>
@@ -213,7 +213,7 @@ Conflated science questions, easy to get discouraged
 <br>
 <br>
   
-\* Thankfully, I had wonderful programming mentors: 
+\* except for wonderful programming mentors: 
 
 Steve Haddock, Dave Foley, Ashley Booth
 
@@ -593,6 +593,11 @@ All on [ohi-science.org](http://ohi-science.org)
 <img src="figures/ohi-science-org.png" height="200px" />
 </figure>
 
+## My recommendations | Learn to program the right way
+
+> - ~~in a panic~~ feeling empowered
+- ~~for a single purpose~~ thinking ahead
+- ~~in isolation~~ with a community
 
 ## My recommendations | You've had a bit of exposure of these tools. Next: build confidence.
 
