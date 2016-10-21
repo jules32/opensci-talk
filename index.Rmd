@@ -1,5 +1,5 @@
 ---
-title: "Exposure and confidence"
+title: "Being a marine scientist and a data scientist"
 author: "Julia Stewart Lowndes, PhD  //  lowndes @nceas.ucsb.edu"
 date: "October 21, 2016, Hopkins Marine Station, Stanford University"
 output:
@@ -8,8 +8,6 @@ output:
     widescreen: yes
     # logo: figures/OHI_logo.png
   slidy_presentation: default
-subtitle: Improving reproducibility, collaboration, and communication in environmental
-  science using open science tools
 ---
 
 ```{r setup, include=FALSE}
@@ -19,55 +17,68 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 <!---
 (while on title slide)
 - Really great to be back at HMS, have been looking forward to this talk
+- Since I was invited by the grad students and this is where I was a grad student, in putting together this talk I have been thinking about how to make it most useful for grad students particularly as well as the greater HMS community. 
+- So, not only 'what I wish I'd known' but how to actually do it.  
+- In 45 minutes. 
+
 - In the last few years I've begun to identify myself not only as a marine scientist and amateur programmer, but as a data scientist and advocate of open science. 
+- I never thought that I would become a data scientist/programmer. I was pretty intimidated by programming.  
 
-I never thought that I would become a data scientist/programmer. I was pretty intimidated by programming.  But from my own experience, as well as through teaching other scientists how to program, the main barriers for scientists becoming competent programmers are exposure and confidence. 
-
-This is not a typical research talk but I'm going to share some of what I and my team has learned, and I'm hoping this talk will empower everyone; give you exposure and build confidence
-
-
-To center: 
-<div class="centered">
-This text is centered.
-</div>
-
-<div class="red2">
-This text is red
-</div>
-
+- But I've found it to be empowering and complementary to my interests as a marine scientist. 
 --->
-
-
 
 
 ## Outline
 
-- **My origins in programming, data science, and open science**
-<br>
-<!---I think this will resonate with you.  --->
+- **Definitions and tools**
 
-- **Improving reproducibility, collaboration and communication in environmental science with open science tools**
+## Outline
+
+- **Definitions and tools**
+
+- **My programming origin story**
+<!---Wikipedia: In comic book terminology, an origin story is an account or back-story revealing how a character or team gained their superpowers and/or the circumstances under which they became superheroes or supervillains.
+--->
+
+## Outline
+
+- **Definitions and tools**
+
+- **My programming origin story**
+
+- **Reproducibility, collaboration and communication with open science tools**
 <br>
     - *Lowndes et al., in prep*
-    - reproducibility is fundamental to science, but rarely tested
-    - these tools have fundamentally changed how we do science <!--- as much as email did --->
+    - reproducibility is fundamental, but rarely tested
+    - tools have changed how we do science <!--- as much as email did --->
+
+## Outline
+
+- **Definitions and tools**
+
+- **My programming origin story**
+
+- **Reproducibility, collaboration and communication with open science tools**
+<br>
+    - *Lowndes et al., in prep*
+    - reproducibility is fundamental, but rarely tested
+    - tools have changed how we do science <!--- as much as email did --->
 
 - **Resources and recommendations**
-    - exposure and confidence: learning the tools available and using them
-
+    - exposure to tools and confidence to use them
 <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
 
-## Data science and open science 
+## Data science and open science {.smaller}
 <!---1/3--->
-**Data Science**:  
+**Data science**:  
 
 "an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
 ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
 
 
-## Data science and open science 
+## Data science and open science {.smaller}
 <!---2/3--->
-**Data Science**:  
+**Data science**:  
 
 "an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
 ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
@@ -77,9 +88,9 @@ This text is red
 <img src="figures/r4ds_data-science.png" height="200px" />
 </figure>
 
-## Data science and open science 
+## Data science and open science {.smaller}
 <!---3/3--->
-**Data Science**:  
+**Data science**:  
 
 "an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge"
 ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
@@ -89,16 +100,9 @@ This text is red
 <img src="figures/r4ds_data-science.png" height="200px" />
 </figure>
 
-**Open Science**:  
+**Open science**:  
 
 "the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers" ([*Hampton et al. 2014*](http://onlinelibrary.wiley.com/doi/10.1890/ES14-00402.1/full))
-
-
-<!--- 
-With open science tools, in some ways the benefits of openness are a byproduct of introducing time-saving efficiencies to improve scientific workflows
-these tools reduce the headaches that accompany many data-rich workflows, and as a bonus, the resulting science is more transparent, reproducible, and accessible.-
--->
-
 
 ## Open science tools {.smaller}
 
@@ -109,19 +113,23 @@ these tools reduce the headaches that accompany many data-rich workflows, and as
 
 links: [**R**](https://cran.r-project.org/), [**RStudio**](https://www.rstudio.com/), [**git**](https://git-scm.com/), [**GitHub**](https://www.github.com/)
 
+<!---
+These are the tools we use and what I mean when I talk about data science and open science tools. 
+There are other options out there but these are used by many communities, including Silicon Valley and industry. These things weren't developed for scientists but for coders; we can borrow from what they've learned.
+--->
 
 ## Open science workflow {.smaller}
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=600" height="300px" />
+<img src="https://docs.google.com/drawings/d/1prBxxUCGTNVelgFnMBkvJdJ4q_uB7o8rWrvzqr4Xha4/pub?w=960&h=480" height="300px" />
 </figure>
 
 ## Open science workflow {.smaller}
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=600" height="300px" />
+<img src="https://docs.google.com/drawings/d/1prBxxUCGTNVelgFnMBkvJdJ4q_uB7o8rWrvzqr4Xha4/pub?w=960&h=480" height="300px" />
 </figure>
 
 this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)
@@ -139,7 +147,7 @@ There are existing tools and existing resources to learn them that will greatly 
 We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
 --->
 
-## My programming origins story {.smaller}
+## My programming origin story {.smaller}
 
 <figure>
 <p align = 'center'>
@@ -157,7 +165,7 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 - what season are they most abundant?
 - how fast and far can they migrate?
 - how do they interact with other species? 
-- how do I import my data when it's too big for Excel?
+- how do I work with data that's too big for Excel?
 - how do I subset years or other attributes?
 - how do I visualize this?
 - how on earth do I even think about this?
@@ -184,7 +192,7 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 
 **Data science:** 
 
-- how do I import my data when it's too big for Excel?
+- how do I work with data too big for Excel?
 - how do I subset years or other attributes?
 - how do I visualize this?
 - how on earth do I even think about this?
@@ -208,7 +216,7 @@ Conflated science questions, easy to get discouraged
 
 - in a panic
 - for a single purpose (get this thesis done!)  
-- in near-isolation*
+- in isolation*
 <br>
 <br>
 <br>
@@ -224,7 +232,11 @@ Steve Haddock, Dave Foley, Ashley Booth
 
 ## NCEAS, UC Santa Barbara
 
-TODO: image
+<figure>
+<p align = 'center'>
+<img src="figures/SB_lowndes.png" height="500px"/>
+</figure>
+
 
 <!---Let's continue on to NCEAS where I've grown as a data scientist.  --->
 
@@ -310,14 +322,14 @@ We expected to easily reproduce our previous work. We had planned ahead:
 
 ## We thought we were doing reproducible science
 
-We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
+We struggled to reproduce our work using standard approaches
 <!---The effort to develop the first global OHI assessment was highly collaborative, which created additional challenges beyond data preparation. --->
 
 ## We thought we were doing reproducible science
 
-We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
+We struggled to reproduce our work using standard approaches
 
-...mainly due to our approaches to data preparation...i.e. data science 
+...mainly due to our approaches to data preparation (data science)
 
 <figure>
 <p align = 'center'>
@@ -327,30 +339,30 @@ We struggled to reproduce our work using standard approaches to reproducibility 
 
 ## We thought we were doing reproducible science
 
-We struggled to reproduce our work using standard approaches to reproducibility and collaboration 
+We struggled to reproduce our work using standard approaches
 
-...mainly due to our approaches to data preparation...i.e. data science 
+...mainly due to our approaches to data preparation (data science)
 
 <figure>
 <p align = 'center'>
 <img src="figures/r4ds_data-science.png" height="200px" />
 </figure>
 
-- added challenge of managing multiple years of information and scores 
-- we needed a nimble approach to sharing data, methods, and results within and outside our team 
+Additional challenge of managing multiple years
+<!--- we needed a nimble approach to sharing data, methods, and results within and outside our team --->
 
 
-## We identified three main challenges to overcome
+## Overcoming three main challenges | Completed second assessment by addressing:
 
-1) **reproducibility**, including transparency and repeatability, esp. data prep
-2) **collaboration**, including teamwork and internal collaboration
-3) **communication** with scientific and public communities
+1) **reproducibility** <!--- transparency and repeatability, esp. data prep --->
+2) **collaboration** <!--- teamwork and internal collaboration --->
+3) **communication** <!---with scientific and public communities --->
 
-## We identified three main challenges to overcome
+## Overcoming three main challenges | Completed second assessment by addressing:
 
-1) **reproducibility**, including transparency and repeatability, esp. data prep
-2) **collaboration**, including teamwork and internal collaboration
-3) **communication** with scientific and public communities
+1) **reproducibility**
+2) **collaboration**
+3) **communication**
 
 <br>
 <br>
@@ -369,10 +381,19 @@ science using open science tools, in prep*
 
 <figure>
 <p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=600" height="400px" />
+</figure>
+
+
+## Addressing challenges using open science tools
+
+<!---will talk a bit about the cultural changes in reproduciblity and collaboration--->
+
+<figure>
+<p align = 'center'>
 <img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
 </figure>
 
-<!---large, distributed team structure, division of labor--->
 
 <!---I'm just going to give an example or two of each; will describe before and after; happy to discuss more afters and will let you read the paper when it comes out--->
 
@@ -380,25 +401,8 @@ science using open science tools, in prep*
 
 *"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in the mundane labor of collecting and preparing data, before it can be explored for useful information." - [NYTimes (2014)](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)*
 
-- transforming, rescaling, gap-filling, formatting, etc.
+- transforming, rescaling, gap-filling, formatting, renaming, etc.
 - seldom mentioned but underpins the scientific process
-
-## Reproducibility - data preparation 
-
-*"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in the mundane labor of collecting and preparing data, before it can be explored for useful information." - [NYTimes (2014)](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)*
-
-- transforming, rescaling, gap-filling, formatting, etc
-- seldom mentioned but underpins the scientific process
-
-
-## Reproducibility - data preparation 
-
-<!---let me show you what I'm talking about--->
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1_u_GH9go5ksHKiJkUEIaGZleKBOKawEDIGEM0WwAPtI/pub?w=960&h=720" height="500px" />
-</figure>
 
 ## Reproducibility - data preparation 
 <!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
@@ -416,14 +420,16 @@ science using open science tools, in prep*
     - R with documentation 
     - RMarkdown
 
-## Reproducibility - data preparation 
+## Reproducibility - data preparation {.smaller}
 
-Data wrangling with the grammar of data manipulation and tidy data 
+Philosophy of data wrangling
 <br>
 [Grolemund & Wickham 2016: *R for Data Science*](http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering)
 <!---    
 - increases readability
 - reduces potential for error
+- these things took me forever to do and now there's one command
+- talk about philosophy: some ways are better than others. Resources available for packages, tidyverse
 --->
 
 <figure>
@@ -431,28 +437,6 @@ Data wrangling with the grammar of data manipulation and tidy data
 <img src="https://docs.google.com/drawings/d/13bmCXXHWK7vzLcgqHsgadevTQq_XgwLnoOvQjO5an1s/pub?w=672&h=480" height="400px" />
 </figure>
 
-
-## Reproducibility - data preparation {.smaller}
-Data wrangling with the grammar of data manipulation and tidy data ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering))
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/13bmCXXHWK7vzLcgqHsgadevTQq_XgwLnoOvQjO5an1s/pub?w=672&h=480" height="250px" />
-</figure>
-
-Ultimate goal: **Tidy data** *([Wickham 2014](https://www.jstatsoft.org/article/view/v059i10))*
-
-<figure>
-<p align = 'center'>
-<img src="figures/tidy_data_r4ds.png" height="150px" />
-</figure>
-
-<!---    
-not going to get into this more, but I love talking about this: I teach whole courses on this
-
-can achieve the same operations in half of the lines of code with single functions for deliberate tasks and 'chaining' to minimize temporary variables30,31; this greatly increases readability and reduces the potential for error.
-
---->
 
 ## Reproducibility - version control
 
@@ -486,7 +470,7 @@ TODO: version control quote
 **After**
 
 - version control with `git`
-- short messages accompany commited changes
+- short messages accompany committed changes
 
 ## Reproducibility - version control {.smaller}
 
@@ -561,12 +545,15 @@ Demo [link](https://github.com/OHI-Science/issues/issues/621) (private)
 <br>
 Demo: [github.com/OHI-Science](https://github.com/ohi-science)
 
+<!---NO JARGON
+
+--->
 
 <img src="figures/ohi-science-org.png" height="200px" />
 <br>
 Demo: [OHI-Science.org](http:ohi-science.org)
 
-## Work in progress
+## Work in progress | Better science in less time {.smaller}
 
 - incremental
 - always improving, learning
@@ -593,29 +580,22 @@ All on [ohi-science.org](http://ohi-science.org)
 <img src="figures/ohi-science-org.png" height="200px" />
 </figure>
 
-## My recommendations | Learn to program the right way
+## My recommendations | Get to your science questions sooner 
 
-> - ~~in a panic~~ feeling empowered
-- ~~for a single purpose~~ thinking ahead
-- ~~in isolation~~ with a community
-
-## My recommendations | You've had a bit of exposure of these tools. Next: build confidence.
-
-**1 - Learn to code** 
-
+**1. Learn to code**  
 &nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
 &nbsp;&nbsp;&nbsp; - with [**RStudio**](https://www.rstudio.com/)  
 
 <!---IDE makes it less intimdating, and so many features for new and seasoned programmers alike--->
 
-**2 - Use version control**
-
+**2. Use version control**  
 &nbsp;&nbsp;&nbsp; - [**git**](https://git-scm.com/)  
 &nbsp;&nbsp;&nbsp; - with [**GitHub**](https://www.github.com/)  
 &nbsp;&nbsp;&nbsp; - through [**RStudio**](https://www.rstudio.com/)  
 
 <!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
-**Introduce these concepts incrementally: evolution not revolution**  
+**Build confidence and introduce these concepts incrementally**  
+**Evolution not revolution**  
 
 
 ## Great resources {.smaller}
@@ -635,22 +615,54 @@ All on [ohi-science.org](http://ohi-science.org)
 <br>
 <br>
 
-These help "dispel the misconception that these skills are intuitive, obvious, or in any way inherent"  
-([*Mills 2015*](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups))
+## Community 
+
+Join existing and create new communities - locally and online
+
+<figure>
+<p align = 'center'>
+<img src="figures/RStudioShinyDevCon.JPG" height="300px" />
+</figure>
+
+- [Mozilla Study Groups](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups)
+- Twitter: [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) 
 
 
-## Exposure and confidence | And the secret of becoming a scientific programmer  {.smaller .columns-2}
+<!---It is hard, but it's powerful and isn't that bad. People have blazed these trails and we can build from there ---> 
+
+<!---These help "dispel the misconception that these skills are intuitive, obvious, or in any way inherent"  
+([*Mills 2015*](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups))--->
+
+<!---study groups, community
+OHI community
+NCEAS community
+UCSB community
+online community. We put ourselves out there to join the programming community and they have welcomed us
+
+Photo of us with Hadley. We're marine scientists talking with Silicon Valley programmers, you're at Stanford, 
+
+I went from my crazy file structure to being into all of this in a year and a half. It istn't as scary and hard as 
+--->
+
+## Learn to program an intentional way
+
+> - ~~in a panic~~ feeling empowered
+- ~~for a single purpose~~ thinking ahead
+- ~~in isolation~~ with a community
+
+
+## Thank you  {.smaller .columns-2}
 
 <!--- now that you've got the exposure, this will give you confidence --->
 
 <figure>
 <p align = 'center'>
-<img src="figures/practicalDev_changingstuff.jpg" height="400px" />
+<img src="figures/practicalDev_changingstuff.jpg" height="450px" />
 </figure>
 
 <br>
 
-**THANK YOU!**  
+
 <br>
 
 email: lowndes @nceas.ucsb.edu  
@@ -670,14 +682,6 @@ Friday, Nov 11, Session 7, 3pm
 - Training and Outreach Coordinator
 - Projects Data Coordinator
 --->
-
-
-
-
-
-## 
---> TODO: quote from Woo et al
-
 
 
 ##
