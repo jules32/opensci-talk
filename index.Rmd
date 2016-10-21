@@ -638,7 +638,7 @@ Photo of us with Hadley. We're marine scientists talking with Silicon Valley pro
 I went from my crazy file structure to being into all of this in a year and a half. It istn't as scary and hard as 
 --->
 
-## Learn to program an intentional way
+## Learn to program in an intentional way
 
 > - ~~in a panic~~ feeling empowered
 - ~~for a single purpose~~ thinking ahead
