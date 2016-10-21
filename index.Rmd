@@ -1,5 +1,5 @@
 ---
-title: "Being a marine scientist and a data scientist"
+title: "Being a marine data scientist"
 author: "Julia Stewart Lowndes, PhD  //  lowndes @nceas.ucsb.edu"
 date: "October 21, 2016, Hopkins Marine Station, Stanford University"
 output:
@@ -134,9 +134,9 @@ There are other options out there but these are used by many communities, includ
 
 this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)
  
- - written in RStudio's [RMarkdown](http://rmarkdown.rstudio.com/)
+ - written in RStudio's [RMarkdown](http://rmarkdown.rstudio.com/) [1-min video](https://vimeo.com/178485416)
  - versioned with Git
- - shared with GitHub
+ - displayed/shared with GitHub
 
 <!---
 I'm going to talk about 2 main open science tools we use and how I couldn't do my job without them. A whole ecosystem of tools and resources to learn them have been developing since I was here at Hopkins and I wish I had had them. So this isn't going to be a normal science talk but more of the tools we use to make our science more reproducible. 
@@ -180,15 +180,7 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 - how fast and far can they migrate?
 - how do they interact with other species? 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<img src="figures/CTD.png" height="200px" />
 
 **Data science:** 
 
@@ -234,7 +226,7 @@ Steve Haddock, Dave Foley, Ashley Booth
 
 <figure>
 <p align = 'center'>
-<img src="figures/SB_lowndes.png" height="500px"/>
+<img src="figures/SB_lowndes.png" height="400px"/>
 </figure>
 
 
@@ -438,26 +430,25 @@ Philosophy of data wrangling
 </figure>
 
 
-## Reproducibility - version control
+## Reproducibility - version control {.smaller}
 
-TODO: version control quote
+*"For scientist coders, [Git] works like a laboratory notebook for scientific computing...it keeps a lasting record of events." - [Nature 2016](http://www.nature.com/news/democratic-databases-science-on-github-1.20719)*
 
 
-## Reproducibility - version control
+## Reproducibility - version control {.smaller}
 
-<!---    
-this is something I did not appreciate the first few times I was introduced to it. I thought, I work alone, I have a fine system of versioning
---->
-
-TODO: version control quote
+*"For scientist coders, [Git] works like a laboratory notebook for scientific computing...it keeps a lasting record of events." - [Nature 2016](http://www.nature.com/news/democratic-databases-science-on-github-1.20719)*
 
 <figure>
 <p align = 'center'>
-<img src="figures/JSL_filename_screenshot.png" height="400px" />
+<img src="figures/JSL_filename_screenshot.png" height="300px" />
 </figure>
 
+<!---    
+this is something I did not appreciate the first few times I was introduced to it. I thought, I work alone, I have a fine system of versioning
+I'm not even going to ask if this looks familiar because I already know
+--->
 
-<!---I'm not even going to ask if this looks familiar because I already know--->
 
 ## Reproducibility - version control
 
@@ -481,15 +472,8 @@ TODO: version control quote
 
 Demo: [link](https://github.com/jules32/opensci-talk/commits/gh-pages/index.Rmd)
 
-## Collaboration - communication + file sharing
-
-TODO: Collaboration quote
-
 
 ## Collaboration - communication + file sharing
-
-TODO: Collaboration quote
-
 
 <figure>
 <p align = 'center'>
@@ -525,6 +509,8 @@ email chains or memory. This lack of transparency and repeatability was even mor
 
 Demo [link](https://github.com/OHI-Science/issues/issues/621) (private)
 
+## Communication - sharing data, code, methods
+
 
 ## Communication - sharing data, code, methods
 
@@ -553,20 +539,9 @@ Demo: [github.com/OHI-Science](https://github.com/ohi-science)
 <br>
 Demo: [OHI-Science.org](http:ohi-science.org)
 
-## Work in progress | Better science in less time {.smaller}
-
-- incremental
-- always improving, learning
-- teaching and training, support
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="350px" />
-</figure>
-
 ## OHI Today
 
-These tools and this workflow make our work possible. 
+These tools and this workflow make our science possible. 
 
 - December 8 2016: releasing 5th global assessment
 - Support and training for ~26 government or academic 'OHI+' assessments
@@ -577,10 +552,29 @@ All on [ohi-science.org](http://ohi-science.org)
 
 <figure>
 <p align = 'center'>
-<img src="figures/ohi-science-org.png" height="200px" />
+<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
 </figure>
 
-## My recommendations | Get to your science questions sooner 
+## Better science in less time {.smaller}
+
+- incremental adoption
+- always improving, learning
+- teaching and training, support
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="350px" />
+</figure>
+
+
+## My recommendations | Get to your science questions sooner {.smaller .columns-2}
+
+<figure>
+<img src="figures/CTD.png" height="250px" />
+</figure>
+
+<br>
+<br>
 
 **1. Learn to code**  
 &nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
@@ -594,7 +588,7 @@ All on [ohi-science.org](http://ohi-science.org)
 &nbsp;&nbsp;&nbsp; - through [**RStudio**](https://www.rstudio.com/)  
 
 <!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
-**Build confidence and introduce these concepts incrementally**  
+**Introduce these concepts incrementally:**  
 **Evolution not revolution**  
 
 
@@ -663,8 +657,12 @@ I went from my crazy file structure to being into all of this in a year and a ha
 <br>
 
 
-<br>
 
+**THANK YOU** 
+<br>
+to my team, colleagues, #rstats community 
+<br>
+<br>
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid  
 talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk)  
