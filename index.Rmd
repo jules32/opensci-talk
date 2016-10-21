@@ -21,10 +21,10 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 - So, not only 'what I wish I'd known' but how to actually do it.  
 - In 45 minutes. 
 
-- In the last few years I've begun to identify myself not only as a marine scientist and amateur programmer, but as a data scientist and advocate of open science. 
+- Since leaving HMS I've begun to identify myself not only as a marine scientist and amateur programmer, but as a data scientist and advocate of open science. 
 - I never thought that I would become a data scientist/programmer. I was pretty intimidated by programming.  
 
-- But I've found it to be empowering and complementary to my interests as a marine scientist. 
+- But I've found it to be empowering and complementary to my interests as a marine scientist. I'm hoping to instill this feeling of excitement and empowerment that I have to everyone
 --->
 
 
@@ -363,9 +363,6 @@ Additional challenge of managing multiple years
 *Lowndes et al. Improving reproducibility, collaboration, and communication in environmental
 science using open science tools, in prep*
 
-- exposure and confidence
-- evolution rather than revolution
-
 
 ## Addressing challenges using open science tools
 
@@ -395,6 +392,11 @@ science using open science tools, in prep*
 
 - transforming, rescaling, gap-filling, formatting, renaming, etc.
 - seldom mentioned but underpins the scientific process
+
+<figure>
+<p align = 'center'>
+<img src="figures/r4ds_data-science.png" height="200px" />
+</figure>
 
 ## Reproducibility - data preparation 
 <!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
@@ -539,12 +541,16 @@ Demo: [github.com/OHI-Science](https://github.com/ohi-science)
 <br>
 Demo: [OHI-Science.org](http:ohi-science.org)
 
-## OHI Today
+## Ocean Health Index Today
 
 These tools and this workflow make our science possible. 
 
+## Ocean Health Index Today
+
+These tools and this workflow make our science possible.  
+
 - December 8 2016: releasing 5th global assessment
-- Support and training for ~26 government or academic 'OHI+' assessments
+- Support and training for government or academic 'OHI+' assessments
 
 <!---and this paper will be coming out--->
 
@@ -588,9 +594,8 @@ All on [ohi-science.org](http://ohi-science.org)
 &nbsp;&nbsp;&nbsp; - through [**RStudio**](https://www.rstudio.com/)  
 
 <!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
-**Introduce these concepts incrementally:**  
-**Evolution not revolution**  
 
+**Introduce these concepts incrementally**  
 
 ## Great resources {.smaller}
 
@@ -609,18 +614,24 @@ All on [ohi-science.org](http://ohi-science.org)
 <br>
 <br>
 
+## Learn to program in an intentional way
+
+> - ~~in a panic~~ feeling empowered
+- ~~for a single purpose~~ thinking ahead
+- ~~in isolation~~ with a community
+
+
 ## Community 
 
 Join existing and create new communities - locally and online
+
+- Twitter: [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) 
+- [Mozilla Study Groups](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups)
 
 <figure>
 <p align = 'center'>
 <img src="figures/RStudioShinyDevCon.JPG" height="300px" />
 </figure>
-
-- [Mozilla Study Groups](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups)
-- Twitter: [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) 
-
 
 <!---It is hard, but it's powerful and isn't that bad. People have blazed these trails and we can build from there ---> 
 
@@ -637,12 +648,6 @@ Photo of us with Hadley. We're marine scientists talking with Silicon Valley pro
 
 I went from my crazy file structure to being into all of this in a year and a half. It istn't as scary and hard as 
 --->
-
-## Learn to program in an intentional way
-
-> - ~~in a panic~~ feeling empowered
-- ~~for a single purpose~~ thinking ahead
-- ~~in isolation~~ with a community
 
 
 ## Thank you  {.smaller .columns-2}
