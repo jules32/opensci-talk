@@ -670,6 +670,7 @@ to my team, colleagues, #rstats community
 <br>
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid  
+website: [https://jules32.github.io](https://jules32.github.io)  
 talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk)  
 <br>
 
