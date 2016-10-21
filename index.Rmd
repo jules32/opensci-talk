@@ -134,7 +134,7 @@ There are other options out there but these are used by many communities, includ
 
 this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)
  
- - written in RStudio's [RMarkdown](http://rmarkdown.rstudio.com/) [1-min video](https://vimeo.com/178485416)
+ - written in RStudio's [RMarkdown](http://rmarkdown.rstudio.com/) ([RStudio 1-min video](https://vimeo.com/178485416))
  - versioned with Git
  - displayed/shared with GitHub
 
