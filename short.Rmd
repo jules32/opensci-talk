@@ -35,13 +35,7 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 
 <p align = 'center'>`Re: FWD: data question`  </p>
 <br>
-<br>
-<br>
-<br>
-<br>
-<span style="color:red">
-***This probably isn't reproducible***
-</span>
+
 <!---
 these are pretty familiar to everyone
 version control, filesharing, documentation/communication. 
@@ -75,6 +69,7 @@ We know this first hand because we tried to reproduce our own work and we were e
     - *Lowndes et al., in prep*
     - reproducibility is fundamental, but rarely tested
     - tools have changed how we do science <!--- as much as email did --->
+        - reproduciblity, collaboration, communication    
 
 ## Doing reproducible science
 
@@ -83,6 +78,7 @@ We know this first hand because we tried to reproduce our own work and we were e
     - *Lowndes et al., in prep*
     - reproducibility is fundamental, but rarely tested
     - tools have changed how we do science <!--- as much as email did --->
+        - reproduciblity, collaboration, communication
 
 - **Resources and recommendations**
 <br>
@@ -143,14 +139,14 @@ There are other options out there but these are used by many communities, includ
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=480" height="400px" />
+<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="500px" />
 </figure>
 
 ## Open data science workflow
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=480" height="400px" />
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="400px" />
 </figure>
 
 this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)  
@@ -166,396 +162,67 @@ There are existing tools and existing resources to learn them that will greatly 
 We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
 --->
 
-## Addressing challenges using open science tools
+## Ocean Health Index | a method to score benefits that oceans provide to people  
 
-<!---will talk a bit about the cultural changes in reproduciblity and collaboration--->
+<!--- Open data science tools and workflow make our science possible. --->
 
-TODO: make this figure with Excel, email, publishing. Then cross it out. 
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
-</figure>
-
-
-## My programming origin story {.smaller}
-
-<figure>
-<p align = 'center'>
-<img src="figures/_JulieReleaseAugerIMG_9311_reduced.png" height="400px"/>
-</figure>
-
-<div class="centered">
-*Photo credit: Greg Auger*
-</div>
-
-
-## Some thesis questions 
-
-> - what are Humboldt squid habitat preferences?
-- what season are they most abundant?
-- how fast and far can they migrate?
-- how do they interact with other species? 
-- how do I work with data that's too big for Excel?
-- how do I subset years or other attributes?
-- how do I visualize this?
-- how on earth do I even think about this?
-
-
-## Conflated questions {.smaller .columns-2}
-
-**Science:**
-
-- what are their habitat preferences?
-- what season are they most abundant?
-- how fast and far can they migrate?
-- how do they interact with other species? 
-<br>
-<img src="figures/CTD.png" height="200px" />
-
-**Data science:** 
-
-- how do I work with data too big for Excel?
-- how do I subset years or other attributes?
-- how do I visualize this?
-- how on earth do I even think about this?
-<img src="figures/r4ds_data-science.png" height="150px" />
-
+## Ocean Health Index | a method to score benefits that oceans provide to people  
 
 <!--- 
-Conflated science questions, easy to get discouraged
+- can be tailored to different geographies  
+- can help inform policy decisions, especially when repeated
 --->
 
-## I learned to program like many do
-
-> - in a panic
-- for a single purpose (get this thesis done!)  <!---but it was scripted! Was able to understand now--->
-- in isolation*
-<br>
-<br>
-<br>
-
-## I learned to program like many do
-
-- in a panic
-- for a single purpose (get this thesis done!)  
-- in isolation*
-<br>
-<br>
-<br>
-  
-\* except for wonderful programming mentors: 
-
-Steve Haddock, Dave Foley, Ashley Booth
-
-<img src="figures/PCfB_screenshot.png" height="100px"/>
-
-<!---with these mentors I was able to learn Matlab, answer my questions, and graduate! --->
-
-
-## NCEAS, UC Santa Barbara
-
 <figure>
 <p align = 'center'>
-<img src="figures/SB_lowndes.png" height="400px"/>
-</figure>
-
-
-<!---Let's continue on to NCEAS where I've grown as a data scientist.  --->
-
-## Ocean Health Index {.smaller}
-
-<!---Without getting into too many details of the project --->
-
-method to categorize benefits that oceans provide to people  
-
-scores are modeled using existing data; data intensive  
-
-<figure>
-<p align = 'center'>
-<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
-</figure>
-
-## Ocean Health Index {.smaller}
-
-<!---Without getting into too many details of the project --->
-
-method to categorize benefits that oceans provide to people  
-
-scores are modeled using existing data; data intensive  
-
-<figure>
-<p align = 'center'>
-<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
-</figure>
-
-method can be tailored to different geographies  
-
-can help inform policy decisions, especially when repeated
-
-
-
-## OHI Global Assessments
-
-<!---
-- Assess coastlines of nations and territories
-- Lots of data, ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources
-
-- We were planning to repeat the global assessment annually and also support other groups that wanted to lead their own assessments. 
-
-- highly collaborative
---->
-
-**2012: OHI method and first global assessment** ([*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/abs/nature11397.html))
-
-<figure>
-<p align = 'center'>
-<img src="figures/ohi-map.png" height="400px" />
+<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
 </figure>
 
 
 ## OHI Global Assessments
-<!---
-This is when I was hired --->
 
-
-**2013: second annual global assessment**
-
-- repeat methods
-- update data 
-- compare between years
-
-## OHI Global Assessments
-
-**2013: second annual global assessment**
-
-- repeat methods
-- update data 
-- compare between years  
-<br>
-<br>  
-
-We expected to easily reproduce our previous work. We had planned ahead: 
-
-<!--- standard approaches to marine science/reproduciblity --->
+**We expected to easily reproduce our previous work. We had planned ahead:**
 
 - coded models
 - 130 pages of published supplemental material
 - internal documents and notes
 
-## We thought we were doing reproducible science
 
-We struggled to reproduce our work using standard approaches
-<!---The effort to develop the first global OHI assessment was highly collaborative, which created additional challenges beyond data preparation. --->
+## OHI Global Assessments
 
-## We thought we were doing reproducible science
+**We expected to easily reproduce our previous work. We had planned ahead:**
 
-We struggled to reproduce our work using standard approaches
-
-...mainly due to our approaches to data preparation (data science)
-
-<figure>
-<p align = 'center'>
-<img src="figures/r4ds_data-science.png" height="200px" />
-</figure>
-
-
-## We thought we were doing reproducible science
-
-We struggled to reproduce our work using standard approaches
-
-...mainly due to our approaches to data preparation (data science)
-
-<figure>
-<p align = 'center'>
-<img src="figures/r4ds_data-science.png" height="200px" />
-</figure>
-
-Additional challenge of managing multiple years
-<!--- we needed a nimble approach to sharing data, methods, and results within and outside our team --->
-
-
-## Overcoming three main challenges | Completed second assessment by addressing:
-
-1) **reproducibility** <!--- transparency and repeatability, esp. data prep --->
-2) **collaboration** <!--- teamwork and internal collaboration --->
-3) **communication** <!---with scientific and public communities --->
-
-## Overcoming three main challenges | Completed second assessment by addressing:
-
-1) **reproducibility**
-2) **collaboration**
-3) **communication**
+- coded models
+- 130 pages of published supplemental material
+- internal documents and notes
 
 <br>
 <br>
 <br>
 
-*Lowndes et al. Improving reproducibility, collaboration, and communication in environmental
-science using open science tools, in prep*
+**...But we struggled to reproduce our work due to data preparation**
 
 
-## Addressing challenges using open science tools
+## Conflating questions {.smaller .columns-2}
 
-<!---will talk a bit about the cultural changes in reproduciblity and collaboration--->
+**We could reproduce our science questions:** 
 
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1eEb8qlCWY5g0v19xMoW-Jc71cNr4GOacsxUK9FR8si4/pub?w=960&h=600" height="400px" />
-</figure>
+- how does X change over time?
+- how does X change with Y?
+- how to model Z?  
 
-
-## Addressing challenges using open science tools
-
-<!---will talk a bit about the cultural changes in reproduciblity and collaboration--->
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
-</figure>
-
-
-<!---I'm just going to give an example or two of each; will describe before and after; happy to discuss more afters and will let you read the paper when it comes out--->
-
-## Reproducibility - data preparation 
-
-*"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in the mundane labor of collecting and preparing data, before it can be explored for useful information." - [NYTimes (2014)](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html)*
-
-- transforming, rescaling, gap-filling, formatting, renaming, etc.
-- seldom mentioned but underpins the scientific process
-
-<figure>
-<p align = 'center'>
-<img src="figures/r4ds_data-science.png" height="200px" />
-</figure>
-
-## Reproducibility - data preparation 
-<!---ranging from categorical tabular data to high resolution rasters - from nearly one hundred freely available, existing sources--->
-
-**Before**
-
-- manually (without coding)
-- largely Microsoft Excel
-- internal documents and emails
-
-
-**After**
-
-- full process coded 
-    - R with documentation 
-    - RMarkdown
-
-## Reproducibility - data preparation {.smaller}
-
-Philosophy of data wrangling
 <br>
-[Grolemund & Wickham 2016: *R for Data Science*](http://r4ds.had.co.nz/tidy-data.html#spreading-and-gathering)
-<!---    
-- increases readability
-- reduces potential for error
-- these things took me forever to do and now there's one command
-- talk about philosophy: some ways are better than others. Resources available for packages, tidyverse
---->
 
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/13bmCXXHWK7vzLcgqHsgadevTQq_XgwLnoOvQjO5an1s/pub?w=672&h=480" height="400px" />
-</figure>
+**Data science:** 
+
+- how to subset just the years we want?
+- how to transpose columns to rows?
+- how to do this reproducibly?
+
+<img src="figures/r4ds_data-science.png" height="150px" />
 
 
-## Reproducibility - version control {.smaller}
 
-*"For scientist coders, [Git] works like a laboratory notebook for scientific computing...it keeps a lasting record of events." - [Nature 2016](http://www.nature.com/news/democratic-databases-science-on-github-1.20719)*
-
-
-## Reproducibility - version control {.smaller}
-
-*"For scientist coders, [Git] works like a laboratory notebook for scientific computing...it keeps a lasting record of events." - [Nature 2016](http://www.nature.com/news/democratic-databases-science-on-github-1.20719)*
-
-<figure>
-<p align = 'center'>
-<img src="figures/JSL_filename_screenshot.png" height="300px" />
-</figure>
-
-<!---    
-this is something I did not appreciate the first few times I was introduced to it. I thought, I work alone, I have a fine system of versioning
-I'm not even going to ask if this looks familiar because I already know
---->
-
-
-## Reproducibility - version control
-
-**Before**
-
-- filenames suffixed with dates, initials 
-    - e.g. `final.csv` and `final_JL-2016-08-05.csv`
-- email descriptions of what changed between files
-
-**After**
-
-- version control with `git`
-- short messages accompany committed changes
-
-## Reproducibility - version control {.smaller}
-
-<figure>
-<p align = 'center'>
-<img src="figures/git-commits.png" height="400px" />
-</figure>
-
-Demo: [link](https://github.com/jules32/opensci-talk/commits/gh-pages/index.Rmd)
-
-
-## Collaboration - communication + file sharing
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1QXluEeWXV4AYDRgxGhe9VItR1y5mrsNj2--mPdWLgtA/pub?w=672&h=384" height="300px" />
-</figure>
-
-## Collaboration - communication + file sharing
-
-**Before**
-
-- email chains (often forwarded) 
-
-**After**
-
-- GitHub issues
-
-<!---
-record of history
-tag specific people
-close tasks
---->
-
-<!---Redesigning our team's workflow required a substantial time investment to learn the tools, and a paradigm shift in our approach to collaboration. Previous to this investment, most team members with any coding experience had learned just enough to accomplish specific tasks (not necessarily in R), and had developed unique conventions. Given the complexity of the project, we needed to learn to code collaboratively and incorporate best practices into our coding25 so that methods for data preparation and modeling could be co-developed and vetted by multiple team members. Further, using a version control system allowed individuals to feel less inhibited about their coding contributions, since files could always be reverted back to previous versions if there were problems.
-
-email chains or memory. This lack of transparency and repeatability was even more problematic for new team members--->
-
-## Collaboration - communication + file sharing {.smaller}
-
-<figure>
-<p align = 'center'>
-<img src="figures/issues_ex.png" height="400px" />
-</figure>
-
-Demo [link](https://github.com/OHI-Science/issues/issues/621) (private)
-
-## Communication - sharing data, code, methods
-
-
-## Communication - sharing data, code, methods
-
-**Before**
-
-- published manuscripts
-- data on FTP server
-
-**After**
-
-- published manuscripts
-- work openly on GitHub [github.com/OHI-Science](https://github.com/ohi-science)
-- website with methods, instruction, data [OHI-Science.org](http:ohi-science.org)
 
 ## Communication - sharing data, code, methods {.smaller .columns-2}
 
@@ -575,21 +242,12 @@ Demo: [OHI-Science.org](http:ohi-science.org)
 
 These tools and this workflow make our science possible. 
 
-## Ocean Health Index Today
 
-These tools and this workflow make our science possible.  
 
-- December 8 2016: releasing 5th global assessment
-- Support and training for government or academic 'OHI+' assessments
+## How can this help you?
 
-<!---and this paper will be coming out--->
-
-All on [ohi-science.org](http://ohi-science.org)
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
-</figure>
+- learn to program 
+- use version control
 
 ## Better science in less time {.smaller}
 
@@ -718,3 +376,20 @@ talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/ope
 ##
 
 
+## Ocean Health Index {.smaller}
+
+<!---Without getting into too many details of the project --->
+
+
+a method to categorize benefits that oceans provide to people  
+
+scores are modeled using existing data; data intensive  
+
+<figure>
+<p align = 'center'>
+<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
+</figure>
+
+
+method can be tailored to different geographies  
+can help inform policy decisions, especially when repeated
