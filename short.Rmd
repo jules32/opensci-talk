@@ -1,5 +1,5 @@
 ---
-title: "Better science in less time using open data science tools"
+title: "Better science in less time using data science tools"
 author: "Julia Stewart Lowndes, PhD  //  lowndes @nceas.ucsb.edu"
 date: "November 11, 2016 // WSN, Monterey, California"
 output:
@@ -29,72 +29,55 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 <br>
 <br>
 
-<p align = 'center'>`data_final_v2.xls`  </p>
+<p align = 'center'><font size="10">`data_final_v2.xls`  </font></p>
 <br>
 <br>
 
-<p align = 'center'>`Re: FWD: data question`  </p>
+<p align = 'center'><font size="10">`Re: FWD: data question`  </font></p>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 <!---
-these are pretty familiar to everyone
-version control, filesharing, documentation/communication. 
-unfortunately, not reproducible. 
-
-We know this first hand because we tried to reproduce our own work and we were extremely challenged.
---->
-
-## Striving for reproducible science {.bigger}
-<br>
-<br>
-
-<p align = 'center'>`data_final_v2.xls`  </p>
-<br>
-<br>
-
-<p align = 'center'>`Re: FWD: data question`  </p>
-<br>
-<br>
-<br>
-<br>
-<br>
 <span style="color:red">
 ***This probably isn't reproducible***
 </span>
+--->
 
 ## Doing reproducible science
 
-- **Better science in less time with open data science tools**
+- **Better science in less time**  - *Lowndes et al., in prep*
 <br>
-    - *Lowndes et al., in prep*
     - reproducibility is fundamental, but rarely tested
     - tools have changed how we do science <!--- as much as email did --->
-        - reproduciblity, collaboration, communication    
+        - reproducibility, collaboration, communication
 
 ## Doing reproducible science
 
-- **Better science in less time with open data science tools**
+- **Better science in less time**  - *Lowndes et al., in prep*
 <br>
-    - *Lowndes et al., in prep*
     - reproducibility is fundamental, but rarely tested
     - tools have changed how we do science <!--- as much as email did --->
-        - reproduciblity, collaboration, communication
+        - reproducibility, collaboration, communication
+
+<br>
 
 - **Resources and recommendations**
 <br>
     - learn to code and use version control
     - exposure to tools and confidence to use them
-    - evolution not revolution 
+        - incremental: evolution not revolution 
 <!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
 
-## Data science and open science
+## Data science
 <!---1/3--->
 **Data science**:  
 
 a discipline "to turn raw data into understanding, insight, and knowledge"
 ([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
 
-## Data science and open science
+## Data science
 <!---2/3--->
 **Data science**:  
 
@@ -103,27 +86,29 @@ a discipline "to turn raw data into understanding, insight, and knowledge"
 
 <figure>
 <p align = 'center'>
-<img src="figures/r4ds_data-science.png" height="200px" />
-</figure>
-
-## Data science and open science
-<!---3/3--->
-**Data science**:  
-
-a discipline "to turn raw data into understanding, insight, and knowledge"
-([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
-
-<figure>
-<p align = 'center'>
-<img src="figures/r4ds_data-science.png" height="200px" />
+<img src="figures/r4ds_data-science.png" height="300px" />
 </figure>
 
 
-**Open science**:  
+## Conflated questions {.columns-2}
 
-"transparency at all stages of the research process, coupled with free and open access to data, code, and papers" ([*Hampton et al. 2014*](http://onlinelibrary.wiley.com/doi/10.1890/ES14-00402.1/full))
+**Science:**
 
-## Open data science tools 
+- what is X's habitat preferences?
+- when is Y most abundant?
+- how wide is their distribution?
+<br>
+<img src="figures/CTD.png" height="200px" />
+
+**Data science:** 
+
+- how do I import my data?
+- how do I subset the years I want?
+- how do I visualize this?
+<img src="figures/r4ds_data-science.png" height="150px" />
+
+
+## Data science tools 
 
 <figure>
 <p align = 'center'>
@@ -133,33 +118,6 @@ a discipline "to turn raw data into understanding, insight, and knowledge"
 <!---
 These are the tools we use and what I mean when I talk about data science and open science tools. 
 There are other options out there but these are used by many communities, including Silicon Valley and industry. These things weren't developed for scientists but for coders; we can borrow from what they've learned.
---->
-
-## Open data science workflow
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="500px" />
-</figure>
-
-## Open data science workflow
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="400px" />
-</figure>
-
-this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)  
- 
-*written in RStudio's [RMarkdown](http://rmarkdown.rstudio.com/), versioned with [Git](https://git-scm.com/), displayed/shared with [GitHub](https://www.github.com/)*
-
-<!---
-I'm going to talk about 2 main open science tools we use and how I couldn't do my job without them. A whole ecosystem of tools and resources to learn them have been developing since I was here at Hopkins and I wish I had had them. So this isn't going to be a normal science talk but more of the tools we use to make our science more reproducible. 
-
-The punchline is that we as environmental scientists, ecologists can be working more efficiently, collaboratively, and reproducibliy than we are. 
-There are existing tools and existing resources to learn them that will greatly improve your science and make you more equipped for future projects and jobs. These tools have changed our approach to science as much as email did. 
-
-We made these changes incrementally over 3.5 years and are still improving; can't be an all-at once thing!  We didn't do this overnight; it was an evolution, not a revolution.
 --->
 
 ## Ocean Health Index | a method to score benefits that oceans provide to people  
@@ -179,96 +137,29 @@ We made these changes incrementally over 3.5 years and are still improving; can'
 </figure>
 
 
-## OHI Global Assessments
 
-**We expected to easily reproduce our previous work. We had planned ahead:**
-
-- coded models
-- 130 pages of published supplemental material
-- internal documents and notes
-
-
-## OHI Global Assessments
-
-**We expected to easily reproduce our previous work. We had planned ahead:**
-
-- coded models
-- 130 pages of published supplemental material
-- internal documents and notes
-
-<br>
-<br>
-<br>
-
-**...But we struggled to reproduce our work due to data preparation**
-
-
-## Conflating questions {.smaller .columns-2}
-
-**We could reproduce our science questions:** 
-
-- how does X change over time?
-- how does X change with Y?
-- how to model Z?  
-
-<br>
-
-**Data science:** 
-
-- how to subset just the years we want?
-- how to transpose columns to rows?
-- how to do this reproducibly?
-
-<img src="figures/r4ds_data-science.png" height="150px" />
-
-
-
-
-## Communication - sharing data, code, methods {.smaller .columns-2}
-
-<img src="figures/github-ohi-science.png" height="200px" />
-<br>
-Demo: [github.com/OHI-Science](https://github.com/ohi-science)
-
-<!---NO JARGON
-
---->
-
-<img src="figures/ohi-science-org.png" height="200px" />
-<br>
-Demo: [OHI-Science.org](http:ohi-science.org)
-
-## Ocean Health Index Today
-
-These tools and this workflow make our science possible. 
-
-
-
-## How can this help you?
-
-- learn to program 
-- use version control
-
-## Better science in less time {.smaller}
-
-- incremental adoption
-- always improving, learning
-- teaching and training, support
+## Reproducible workflow
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="350px" />
+<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="500px" />
 </figure>
 
-
-## My recommendations | Get to your science questions sooner {.smaller .columns-2}
+## Reproducible and open workflow
 
 <figure>
-<img src="figures/CTD.png" height="250px" />
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="400px" />
 </figure>
 
-<br>
-<br>
+this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)  
+ 
+*written in [RStudio's RMarkdown](http://rmarkdown.rstudio.com/), versioned with [Git](https://git-scm.com/), displayed/shared with [GitHub](https://www.github.com/)*
+
+
+
+
+## You can do better science in less time: | Get to your science questions sooner {.columns-2}
 
 **1. Learn to code**  
 &nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
@@ -281,13 +172,36 @@ These tools and this workflow make our science possible.
 &nbsp;&nbsp;&nbsp; - with [**GitHub**](https://www.github.com/)  
 &nbsp;&nbsp;&nbsp; - through [**RStudio**](https://www.rstudio.com/)  
 
-<!---What this might mean today is having a lab webpage, and maybe personal webpage, twitter account and a github account --->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-**Introduce these concepts incrementally**  
+## You can do better science in less time: | Get to your science questions sooner {.columns-2}
 
-## Great resources {.smaller}
+**1. Learn to code**  
+&nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
+&nbsp;&nbsp;&nbsp; - with [**RStudio**](https://www.rstudio.com/)  
 
-**Books, trainings, and webinars**: 
+<!---IDE makes it less intimdating, and so many features for new and seasoned programmers alike--->
+
+**2. Use version control**  
+&nbsp;&nbsp;&nbsp; - [**git**](https://git-scm.com/)  
+&nbsp;&nbsp;&nbsp; - with [**GitHub**](https://www.github.com/)  
+&nbsp;&nbsp;&nbsp; - through [**RStudio**](https://www.rstudio.com/)  
+
+**3. Learn in an intentional way**
+
+- ~~in a panic~~ **feel empowered**
+- ~~for a single purpose~~ **think ahead**
+- ~~in isolation~~ **with a community**
+
+
+## Great resources 
+
+**Free online books, trainings, and webinars**: 
 
 - [ohi-science.org/news: Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
 
@@ -298,28 +212,11 @@ These tools and this workflow make our science possible.
 - "How open science helps researchers succeed" ([*McKiernan et al. 2016*](https://elifesciences.org/content/5/e16800v2))
 - "Best Practices for Scientific Computing" ([*Wilson et al. 2014*](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745))
 - "Good Enough Practices for Scientific Computing" ([*Wilson et al. 2016*](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/))
+- "Practical Computing for Biologists" ([*Haddock & Dunn*](http://practicalcomputing.org/))
 
 <br>
 <br>
 
-## Learn to program in an intentional way
-
-> - ~~in a panic~~ feeling empowered
-- ~~for a single purpose~~ thinking ahead
-- ~~in isolation~~ with a community
-
-
-## Community 
-
-Join existing and create new communities - locally and online
-
-- Twitter: [#rstats](https://twitter.com/search?q=%23rstats&src=tyah) 
-- [Mozilla Study Groups](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups)
-
-<figure>
-<p align = 'center'>
-<img src="figures/RStudioShinyDevCon.JPG" height="300px" />
-</figure>
 
 <!---It is hard, but it's powerful and isn't that bad. People have blazed these trails and we can build from there ---> 
 
@@ -338,28 +235,17 @@ I went from my crazy file structure to being into all of this in a year and a ha
 --->
 
 
-## Thank you  {.smaller .columns-2}
-
-<!--- now that you've got the exposure, this will give you confidence --->
+## Thank you | to the OHI team, colleagues, #rstats community 
 
 <figure>
 <p align = 'center'>
-<img src="figures/practicalDev_changingstuff.jpg" height="450px" />
+<img src="figures/RStudioShinyDevCon.JPG" height="200px" />
 </figure>
 
-<br>
-
-
-
-**THANK YOU** 
-<br>
-to my team, colleagues, #rstats community 
-<br>
-<br>
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid  
 website: [https://jules32.github.io](https://jules32.github.io)  
-talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk)  
+talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk/short)  
 <br>
 
 **NCEAS is hiring**: [nceas.ucsb.edu/positionsopen](https://www.nceas.ucsb.edu/positionsopen)
@@ -393,3 +279,47 @@ scores are modeled using existing data; data intensive
 
 method can be tailored to different geographies  
 can help inform policy decisions, especially when repeated
+
+
+##
+
+## Conflating questions {.smaller .columns-2}
+
+**We could reproduce our science questions:** 
+
+- how does X change over time?
+- how does X change with Y?
+- how to model Z?  
+
+<br>
+
+**Data science:** 
+
+- how to subset just the years we want?
+- how to transpose columns to rows?
+- how to do this reproducibly?
+
+<img src="figures/r4ds_data-science.png" height="150px" />
+
+## OHI Global Assessments
+
+**We expected to easily reproduce our previous work. We had planned ahead:**
+
+- coded models
+- 130 pages of published supplemental material
+- internal documents and notes
+
+
+## OHI Global Assessments
+
+**We expected to easily reproduce our previous work. We had planned ahead:**
+
+- coded models
+- 130 pages of published supplemental material
+- internal documents and notes
+
+<br>
+<br>
+<br>
+
+**...But we struggled to reproduce our work.**
