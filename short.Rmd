@@ -25,7 +25,7 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 - But I've found it to be empowering and complementary to my interests as a marine scientist. I'm hoping to instill this feeling of excitement and empowerment that I have to everyone
 --->
 
-## Striving for reproducible science {.bigger}
+##
 <br>
 <br>
 
@@ -47,28 +47,13 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 
 ## Doing reproducible science
 
-- **Better science in less time**  - *Lowndes et al., in prep*
+- **Better science in less time using data science tools**  
 <br>
+    - *Lowndes et al., in prep*
     - reproducibility is fundamental, but rarely tested
     - tools have changed how we do science <!--- as much as email did --->
         - reproducibility, collaboration, communication
 
-## Doing reproducible science
-
-- **Better science in less time**  - *Lowndes et al., in prep*
-<br>
-    - reproducibility is fundamental, but rarely tested
-    - tools have changed how we do science <!--- as much as email did --->
-        - reproducibility, collaboration, communication
-
-<br>
-
-- **Resources and recommendations**
-<br>
-    - learn to code and use version control
-    - exposure to tools and confidence to use them
-        - incremental: evolution not revolution 
-<!---We find scientists elsewhere are eager to implement open science concepts, but generally have not been exposed to the necessary tools available to suit their needs or lack the knowledge and confidence to begin using them. We've been teaching other scientists--->
 
 ## Data science
 <!---1/3--->
@@ -136,13 +121,19 @@ There are other options out there but these are used by many communities, includ
 <img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
 </figure>
 
+## Reproducible workflow
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="500px" />
+</figure>
 
 
 ## Reproducible workflow
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="500px" />
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
 </figure>
 
 ## Reproducible and open workflow
