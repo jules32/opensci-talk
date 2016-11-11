@@ -69,7 +69,7 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 <img src="figures/r4ds_data-science.png" height="300px" />
 </figure>
 
-## Conflated questions {.columns-2}
+## Science and data science {.columns-2}
 
 **Science:**
 
@@ -89,7 +89,7 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 <br>
 
 
-## Conflated questions {.columns-2}
+## Science and data science {.columns-2}
 
 **Science:**
 
@@ -134,7 +134,16 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 
 
 - we struggled to reproduce our own work
-- we had focused only on scientific methods, not data prep (= data science)
+- we had focused only on scientific methods, not data prep ( = data science)
+
+## Ocean Health Index | a method to score benefits that oceans provide to people  
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
+</figure>
+
+<p align = 'right'>[*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html); [*Halpern et al. 2015*](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863); [*Lowndes et al. 2015*](http://doi.org/10.7717/peerj.1503)</p>
 
 ## Doing reproducible science
 
@@ -162,17 +171,7 @@ this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/o
  
 *written in [RStudio's RMarkdown](http://rmarkdown.rstudio.com/), versioned with [Git](https://git-scm.com/), displayed/shared with [GitHub](https://www.github.com/)*
 
-## Ocean Health Index | a method to score benefits that oceans provide to people  
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
-</figure>
-
-<p align = 'right'>[*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html); [*Halpern et al. 2015*](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863); [*Lowndes et al. 2015*](http://doi.org/10.7717/peerj.1503)</p>
-
-
-## You can do better science in less time: | Get to your science questions sooner {.columns-2}
+## Doing reproducible science | Better science in less time {.columns-2}
 
 **1. Learn to code**  
 &nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
