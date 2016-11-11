@@ -107,14 +107,6 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 <br>
 <img src="figures/r4ds_data-science.png" height="150px" />
 
-## Data science tools 
-
-<figure>
-<p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19m4VRz0vhUToE-QwNF2BODVFpoicLm5LGuH9o2PVvGs/pub?w=624&h=480" height="400px" />
-</figure>
-
-
 ## Ocean Health Index | a method to score benefits that oceans provide to people  
 
 <figure>
@@ -144,6 +136,14 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 </figure>
 
 <p align = 'right'>[*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html); [*Halpern et al. 2015*](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863); [*Lowndes et al. 2015*](http://doi.org/10.7717/peerj.1503)</p>
+
+## Data science tools 
+
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/19m4VRz0vhUToE-QwNF2BODVFpoicLm5LGuH9o2PVvGs/pub?w=624&h=480" height="400px" />
+</figure>
+
 
 ## Doing reproducible science
 
@@ -191,7 +191,7 @@ this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/o
 <br>
 <br>
 
-## You can do better science in less time: | Get to your science questions sooner {.columns-2}
+## Doing reproducible science | Better science in less time {.columns-2}
 
 **1. Learn to code**  
 &nbsp;&nbsp;&nbsp; - in [**R**](https://cran.r-project.org/)  
