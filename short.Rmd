@@ -238,11 +238,12 @@ this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/o
 <img src="figures/RStudioShinyDevCon.JPG" height="200px" />
 </figure>
 
+[ohi-science.org](https://ohi-science.org)  
+
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid  
-website: [https://jules32.github.io](https://jules32.github.io)  
-talk url: [https://jules32.github.io/opensci-talk/short](https://jules32.github.io/opensci-talk/short/short)  
-<br>
+website: [jules32.github.io](https://jules32.github.io)  
+talk url: [jules32.github.io/opensci-talk/short](https://jules32.github.io/opensci-talk/short/short)  
 
 **NCEAS is hiring**: [nceas.ucsb.edu/positionsopen](https://www.nceas.ucsb.edu/positionsopen)
 
