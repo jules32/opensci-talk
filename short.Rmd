@@ -77,7 +77,7 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 - what is Y's habitat preferences?
 <br>
 <br>
-<img src="figures/CTD.png" height="200px" />
+<img src="figures/_JulieReleaseAugerIMG_9311_reduced.png" height="200px"/>
 
 <br>
 <br>
@@ -97,7 +97,7 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 - what is Y's habitat preferences?
 <br>
 <br>
-<img src="figures/CTD.png" height="200px" />
+<img src="figures/_JulieReleaseAugerIMG_9311_reduced.png" height="200px"/>
 
 **Data science:** 
 
