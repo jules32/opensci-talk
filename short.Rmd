@@ -12,28 +12,17 @@ output:
 knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
                       echo=FALSE, warning=FALSE, message=FALSE)
 ```
-<!---
-(while on title slide)
-- Really great to be back at HMS, have been looking forward to this talk
-- Since I was invited by the grad students and this is where I was a grad student, in putting together this talk I have been thinking about how to make it most useful for grad students particularly as well as the greater HMS community. 
-- So, not only 'what I wish I'd known' but how to actually do it.  
-- In 45 minutes. 
 
-- Since leaving HMS I've begun to identify myself not only as a marine scientist and amateur programmer, but as a data scientist and advocate of open science. 
-- I never thought that I would become a data scientist/programmer. I was pretty intimidated by programming.  
+## Trying to do reproducible science
 
-- But I've found it to be empowering and complementary to my interests as a marine scientist. I'm hoping to instill this feeling of excitement and empowerment that I have to everyone
---->
-
-##
 <br>
 <br>
 
-<p align = 'center'><font size="10">`data_final_v2.xls`  </font></p>
+<p align = 'center'><font size="16">`data_final_v2.xls`  </font></p>
 <br>
 <br>
 
-<p align = 'center'><font size="10">`Re: FWD: data question`  </font></p>
+<p align = 'center'><font size="16">`Re: FWD: data question`  </font></p>
 <br>
 <br>
 <br>
@@ -45,43 +34,68 @@ knitr::opts_chunk$set(fig.width=2, fig.path='figures/',
 </span>
 --->
 
-## Doing reproducible science
+## Actually doing reproducible science 
 
-- **Better science in less time using data science tools**  
 <br>
-    - *Lowndes et al., in prep*
-    - reproducibility is fundamental, but rarely tested
-    - tools have changed how we do science <!--- as much as email did --->
-        - reproducibility, collaboration, communication
 
+We struggled to reproduce our own work. 
+
+Data science principles and tools have changed how we do science:  
+
+- reproducibility
+- collaboration
+- communication  
+
+
+<br>
+<br>
+<br>
+<p align = 'right'>*Lowndes et al., in prep*</p>
 
 ## Data science
-<!---1/3--->
-**Data science**:  
+<!---1/2--->
 
-a discipline "to turn raw data into understanding, insight, and knowledge"
-([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
+A discipline "to turn raw data into understanding, insight, and knowledge"
+<p align = 'right'>[*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/)</p>
 
 ## Data science
-<!---2/3--->
-**Data science**:  
+<!---2/2--->
 
-a discipline "to turn raw data into understanding, insight, and knowledge"
-([*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/))
+A discipline "to turn raw data into understanding, insight, and knowledge"
+<p align = 'right'>[*Grolemund & Wickham 2016*](http://r4ds.had.co.nz/)</p>
 
 <figure>
 <p align = 'center'>
 <img src="figures/r4ds_data-science.png" height="300px" />
 </figure>
 
+## Conflated questions {.columns-2}
+
+**Science:**
+
+- when is X most abundant?
+- what is Y's habitat preferences?
+<br>
+<br>
+<img src="figures/CTD.png" height="200px" />
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ## Conflated questions {.columns-2}
 
 **Science:**
 
-- what is X's habitat preferences?
-- when is Y most abundant?
-- how wide is their distribution?
+- when is X most abundant?
+- what is Y's habitat preferences?
+<br>
 <br>
 <img src="figures/CTD.png" height="200px" />
 
@@ -89,9 +103,9 @@ a discipline "to turn raw data into understanding, insight, and knowledge"
 
 - how do I import my data?
 - how do I subset the years I want?
-- how do I visualize this?
+<br>
+<br>
 <img src="figures/r4ds_data-science.png" height="150px" />
-
 
 ## Data science tools 
 
@@ -100,28 +114,29 @@ a discipline "to turn raw data into understanding, insight, and knowledge"
 <img src="https://docs.google.com/drawings/d/19m4VRz0vhUToE-QwNF2BODVFpoicLm5LGuH9o2PVvGs/pub?w=624&h=480" height="400px" />
 </figure>
 
-<!---
-These are the tools we use and what I mean when I talk about data science and open science tools. 
-There are other options out there but these are used by many communities, including Silicon Valley and industry. These things weren't developed for scientists but for coders; we can borrow from what they've learned.
---->
 
 ## Ocean Health Index | a method to score benefits that oceans provide to people  
-
-<!--- Open data science tools and workflow make our science possible. --->
-
-## Ocean Health Index | a method to score benefits that oceans provide to people  
-
-<!--- 
-- can be tailored to different geographies  
-- can help inform policy decisions, especially when repeated
---->
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
+<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
 </figure>
 
-## Reproducible workflow
+
+<p align = 'right'>[*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html)</p>
+
+## Ocean Health Index | a method to score benefits that oceans provide to people  
+
+<figure>
+<p align = 'center'>
+<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
+</figure>
+
+
+- we struggled to reproduce our own work
+- we had focused only on scientific methods, not data prep (= data science)
+
+## Doing reproducible science
 
 <figure>
 <p align = 'center'>
@@ -129,25 +144,32 @@ There are other options out there but these are used by many communities, includ
 </figure>
 
 
-## Reproducible workflow
+## Doing reproducible science
 
 <figure>
 <p align = 'center'>
 <img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
 </figure>
 
-## Reproducible and open workflow
+## Doing reproducible science
 
 <figure>
 <p align = 'center'>
 <img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="400px" />
 </figure>
 
-this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-talk)  
+this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/opensci-talk/short)  
  
 *written in [RStudio's RMarkdown](http://rmarkdown.rstudio.com/), versioned with [Git](https://git-scm.com/), displayed/shared with [GitHub](https://www.github.com/)*
 
+## Ocean Health Index | a method to score benefits that oceans provide to people  
 
+<figure>
+<p align = 'center'>
+<img src="https://docs.google.com/drawings/d/1RwN4qHPL8JPZMzhgjz7epJH6K_oMv1pWOspDGFL5-30/pub?w=960&h=384"  height="300px" />
+</figure>
+
+<p align = 'right'>[*Halpern et al. 2012*](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html); [*Halpern et al. 2015*](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863); [*Lowndes et al. 2015*](http://doi.org/10.7717/peerj.1503)</p>
 
 
 ## You can do better science in less time: | Get to your science questions sooner {.columns-2}
@@ -185,9 +207,10 @@ this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-tal
 
 **3. Learn in an intentional way**
 
-- ~~in a panic~~ **feel empowered**
-- ~~for a single purpose~~ **think ahead**
-- ~~in isolation~~ **with a community**
+- **feel empowered** (~~in a panic~~) 
+- **think ahead** (~~for a single purpose~~)  
+- **with a community** (~~in isolation~~)  
+
 
 
 ## Great resources 
@@ -209,23 +232,6 @@ this talk: [jules32.github.io/opensci-talk](http://jules32.github.io/opensci-tal
 <br>
 
 
-<!---It is hard, but it's powerful and isn't that bad. People have blazed these trails and we can build from there ---> 
-
-<!---These help "dispel the misconception that these skills are intuitive, obvious, or in any way inherent"  
-([*Mills 2015*](https://science.mozilla.org/blog/introducing-mozilla-science-study-groups))--->
-
-<!---study groups, community
-OHI community
-NCEAS community
-UCSB community
-online community. We put ourselves out there to join the programming community and they have welcomed us
-
-Photo of us with Hadley. We're marine scientists talking with Silicon Valley programmers, you're at Stanford, 
-
-I went from my crazy file structure to being into all of this in a year and a half. It istn't as scary and hard as 
---->
-
-
 ## Thank you | to the OHI team, colleagues, #rstats community 
 
 <figure>
@@ -236,7 +242,7 @@ I went from my crazy file structure to being into all of this in a year and a ha
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid  
 website: [https://jules32.github.io](https://jules32.github.io)  
-talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/opensci-talk/short)  
+talk url: [https://jules32.github.io/opensci-talk/short](https://jules32.github.io/opensci-talk/short/short)  
 <br>
 
 **NCEAS is hiring**: [nceas.ucsb.edu/positionsopen](https://www.nceas.ucsb.edu/positionsopen)
@@ -253,64 +259,3 @@ talk url: [https://jules32.github.io/opensci-talk](https://jules32.github.io/ope
 ##
 
 
-## Ocean Health Index {.smaller}
-
-<!---Without getting into too many details of the project --->
-
-
-a method to categorize benefits that oceans provide to people  
-
-scores are modeled using existing data; data intensive  
-
-<figure>
-<p align = 'center'>
-<img src="figures/ohi-goals-flowerplot2.png" height="300px" />
-</figure>
-
-
-method can be tailored to different geographies  
-can help inform policy decisions, especially when repeated
-
-
-##
-
-## Conflating questions {.smaller .columns-2}
-
-**We could reproduce our science questions:** 
-
-- how does X change over time?
-- how does X change with Y?
-- how to model Z?  
-
-<br>
-
-**Data science:** 
-
-- how to subset just the years we want?
-- how to transpose columns to rows?
-- how to do this reproducibly?
-
-<img src="figures/r4ds_data-science.png" height="150px" />
-
-## OHI Global Assessments
-
-**We expected to easily reproduce our previous work. We had planned ahead:**
-
-- coded models
-- 130 pages of published supplemental material
-- internal documents and notes
-
-
-## OHI Global Assessments
-
-**We expected to easily reproduce our previous work. We had planned ahead:**
-
-- coded models
-- 130 pages of published supplemental material
-- internal documents and notes
-
-<br>
-<br>
-<br>
-
-**...But we struggled to reproduce our work.**
