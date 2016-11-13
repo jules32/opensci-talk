@@ -5,6 +5,7 @@ date: "November 11, 2016 // WSN, Monterey, California"
 output:
   ioslides_presentation:
     widescreen: yes
+  beamer_presentation: default
   slidy_presentation: default
 ---
 
