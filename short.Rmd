@@ -51,7 +51,7 @@ Data science principles and tools have changed how we do science:
 <br>
 <br>
 <br>
-Upcoming paper: how we now do reproducible science by borrowing from data science
+Upcoming paper: how we now do reproducible science by leveraging from data science - philosophy and tools
 <p align = 'right'>*Lowndes et al., in prep*: </p>
 
 ## Data science
@@ -152,19 +152,19 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 </figure>
 
 
-## Doing reproducible science
+## Doing reproducible science | coding + version control are the keystone
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="500px" />
+<img src="https://docs.google.com/drawings/d/1mxGsDQjYkZQeC11_xi2ns757dUz1k1BtdNRxb25Pqzs/pub?w=960&h=600" height="450px" />
 </figure>
 
 
-## Doing reproducible science
+## Doing reproducible science | but must also collaborate and communicate effectively
 
 <figure>
 <p align = 'center'>
-<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="500px" />
+<img src="https://docs.google.com/drawings/d/19ZBCTq7f-jAzqjaqYK2agrNyw4OvrpdcuOCAHewfxt4/pub?w=960&h=600" height="450px" />
 </figure>
 
 ## Doing reproducible science
@@ -221,7 +221,7 @@ this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/o
 
 ## Great resources 
 
-**Free online books, trainings, and webinars**: 
+**So many amazing + free online books, trainings, and webinars**: 
 
 - [ohi-science.org/news: Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
 
@@ -238,14 +238,14 @@ this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/o
 <br>
 
 
-## Thank you | to the OHI team, colleagues, #rstats community 
+## Thank you | HUGE thanks to the OHI team, colleagues, #rstats community 
 
 <figure>
 <p align = 'center'>
 <img src="figures/RStudioShinyDevCon.JPG" height="200px" />
 </figure>
 
-[ohi-science.org](https://ohi-science.org)  -> our website, made with GitHub
+[ohi-science.org](https://ohi-science.org)  -> our website, collaboratively made (by us!) with GitHub
 
 email: lowndes @nceas.ucsb.edu  
 twitter: @juliesquid, @OHIscience  
