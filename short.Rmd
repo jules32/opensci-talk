@@ -103,6 +103,7 @@ A discipline "to turn raw data into understanding, insight, and knowledge"
 <img src="figures/_JulieReleaseAugerIMG_9311_reduced.png" height="200px"/>  
 *This is scientific discovery; these questions don't yet have answers.*
 
+<br>
 
 **Data science:** 
 
@@ -232,7 +233,7 @@ this talk: [**jules32.github.io/opensci-talk/short**](http://jules32.github.io/o
 - "How open science helps researchers succeed" ([*McKiernan et al. 2016*](https://elifesciences.org/content/5/e16800v2))
 - "Best Practices for Scientific Computing" ([*Wilson et al. 2014*](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745))
 - "Good Enough Practices for Scientific Computing" ([*Wilson et al. 2016*](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/))
-- "Democratic databases: science on GitHub" ([*Perkel 2016*](http://www.nature.com/news/democratic-databases-science-on-github-1.20719)
+- "Democratic databases: science on GitHub" ([*Perkel 2016*](http://www.nature.com/news/democratic-databases-science-on-github-1.20719))
 - "Practical Computing for Biologists" ([*Haddock & Dunn*](http://practicalcomputing.org/))
 
 <br>
